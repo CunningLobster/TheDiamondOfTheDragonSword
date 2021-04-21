@@ -12,8 +12,7 @@ namespace RPG.Control
         private void Update()
         {
             if(InteractWithCombat()) return;
-            if(InteractWithMovement()) return;
-            print("nothing to do");
+            if (InteractWithMovement()) return;
         }
 
         private bool InteractWithCombat()
@@ -36,7 +35,7 @@ namespace RPG.Control
             return false;
         }
 
-        bool InteractWithMovement()
+        private bool InteractWithMovement()
         {
             Ray ray = GetMouseRay();
             RaycastHit hit;
@@ -47,6 +46,7 @@ namespace RPG.Control
             {
                 if (Input.GetMouseButton(0))
                 {
+                    GetComponent<Figter>().Cancel();
                     GetComponent<Mover>().MoveTo(hit.point);
                     return true;
                 }
