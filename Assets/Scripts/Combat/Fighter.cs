@@ -8,11 +8,12 @@ namespace RPG.Combat
     public class Fighter : MonoBehaviour, IAction
     {
         [SerializeField] float weaponRange = 2f;
+        [SerializeField] float weaponDamage = 20f;
         [SerializeField] float timeBetweenHits = 1f;
 
         float timeFromLastHit = 0f;
         bool isAbleToHit = true;
-        Transform target;
+        Health target;
 
 
         private void Update()
@@ -20,10 +21,11 @@ namespace RPG.Combat
             timeFromLastHit += Time.deltaTime;
 
             if (target == null) { return; }
-            
+            if (target.IsDead) { return; }
+
             if (!IsInRange())
             {
-                GetComponent<Mover>().MoveTo(target.position);
+                GetComponent<Mover>().MoveTo(target.transform.position);
             }
             else
             {
@@ -34,6 +36,8 @@ namespace RPG.Combat
 
         private void AttackBehaviour()
         {
+            transform.LookAt(target.transform);
+
             if (isAbleToHit)
             {
                 GetComponent<Animator>().SetTrigger("Attack");
@@ -43,6 +47,7 @@ namespace RPG.Combat
             SetIsAbleToHit();
         }
 
+        //Make it more elegant
         private void SetIsAbleToHit()
         {
             if (!isAbleToHit)
@@ -56,22 +61,26 @@ namespace RPG.Combat
 
         bool IsInRange()
         {
-            return Vector3.Distance(transform.position, target.position) <= weaponRange;
+            return Vector3.Distance(transform.position, target.transform.position) <= weaponRange;
         }
 
 
         public void Attack(CombatTarget combatTarget)
         {
             GetComponent<ActionScheduler>().StartAction(this);
-            target = combatTarget.transform;
+            target = combatTarget.GetComponent<Health>();
         }
 
         public void Cancel()
         {
+            GetComponent<Animator>().SetTrigger("stopAttack");
             target = null;
         }
 
         void Hit()
-        { }
+        {
+            if (target == null) { return; }
+            target.TakeDamage(weaponDamage);
+        }
     }
 }

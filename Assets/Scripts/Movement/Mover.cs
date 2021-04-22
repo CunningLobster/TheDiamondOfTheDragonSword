@@ -29,7 +29,7 @@ namespace RPG.Movement
         }       
 
         public void StartMovingAction(Vector3 destination)
-        {
+        {           
             GetComponent<ActionScheduler>().StartAction(this);
             MoveTo(destination);
         }
