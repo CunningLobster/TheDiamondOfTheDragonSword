@@ -11,8 +11,7 @@ namespace RPG.Combat
         [SerializeField] float weaponDamage = 20f;
         [SerializeField] float timeBetweenHits = 1f;
 
-        float timeFromLastHit = 0f;
-        bool isAbleToHit = true;
+        float timeFromLastHit = Mathf.Infinity;
         Health target;
 
 
@@ -38,25 +37,22 @@ namespace RPG.Combat
         {
             transform.LookAt(target.transform);
 
-            if (isAbleToHit)
+            if (timeBetweenHits <= timeFromLastHit)
             {
+                GetComponent<Animator>().ResetTrigger("stopAttack");
                 GetComponent<Animator>().SetTrigger("Attack");
-                isAbleToHit = false;
                 timeFromLastHit = 0f;
             }
-            SetIsAbleToHit();
         }
 
-        //Make it more elegant
-        private void SetIsAbleToHit()
+        public bool CanAttack(GameObject combatTarget)
         {
-            if (!isAbleToHit)
+            if (combatTarget == null)
             {
-                if (timeBetweenHits < timeFromLastHit)
-                {
-                    isAbleToHit = true;
-                }
+                return false;
             }
+            Health testTarget = combatTarget.GetComponent<Health>();
+            return testTarget != null && testTarget.IsDead == false;
         }
 
         bool IsInRange()
@@ -65,7 +61,7 @@ namespace RPG.Combat
         }
 
 
-        public void Attack(CombatTarget combatTarget)
+        public void Attack(GameObject combatTarget)
         {
             GetComponent<ActionScheduler>().StartAction(this);
             target = combatTarget.GetComponent<Health>();
@@ -73,6 +69,7 @@ namespace RPG.Combat
 
         public void Cancel()
         {
+            GetComponent<Animator>().ResetTrigger("Attack");
             GetComponent<Animator>().SetTrigger("stopAttack");
             target = null;
         }
