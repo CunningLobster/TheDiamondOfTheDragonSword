@@ -24,7 +24,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ff18cced525c9d4e8dd4a43ac753d8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseDistance: 20
+  chaseDistance: 5
+  suspicionTime: 5
+  patrolPath: {fileID: 0}
+  WaypointTolerance: 1
+  waypointDwellTime: 0.5
 --- !u!1001 &554188104512003978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35,6 +39,10 @@ PrefabInstance:
     - target: {fileID: 2133793514, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
       propertyPath: m_Speed
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2538279069648690295, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
+      propertyPath: m_Radius
+      value: 0.62
       objectReference: {fileID: 0}
     - target: {fileID: 2649943600381593304, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
       propertyPath: health
