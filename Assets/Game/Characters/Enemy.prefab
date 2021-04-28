@@ -27,8 +27,9 @@ MonoBehaviour:
   chaseDistance: 5
   suspicionTime: 5
   patrolPath: {fileID: 0}
-  WaypointTolerance: 1
+  waypointTolerance: 1
   waypointDwellTime: 0.5
+  patrolSpeedFraction: 0.4
 --- !u!1001 &554188104512003978
 PrefabInstance:
   m_ObjectHideFlags: 0
