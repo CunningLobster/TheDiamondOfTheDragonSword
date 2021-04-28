@@ -15,6 +15,11 @@ namespace RPG.Cinematics
             GetComponent<PlayableDirector>().stopped += EnableControl;
         }
 
+        private void Update()
+        {
+            StopCutscene();
+        }
+
         void DisableControl(PlayableDirector pd)
         {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -26,6 +31,17 @@ namespace RPG.Cinematics
         {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             player.GetComponent<PlayerController>().enabled = true;
+        }
+
+        void StopCutscene()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                if (GetComponent<PlayableDirector>().time > 0)
+                {
+                    GetComponent<PlayableDirector>().Stop();
+                }
+            }
         }
     }
 }
