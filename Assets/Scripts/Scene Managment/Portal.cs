@@ -2,14 +2,21 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 namespace RPG.SceneManagement
 {
     public class Portal : MonoBehaviour
     {
+        enum Destinations { A, B, C, D }
         [SerializeField] int sceneToLoad = -1;
         [SerializeField] Transform spawnPoint;
+        [SerializeField] Destinations destination;
+
+        [SerializeField] float fadeOutTime = 1f;
+        [SerializeField] float fadeInTime = 1f;
+        [SerializeField] float timeBetweenFades = .2f;
 
         private void OnTriggerEnter(Collider other)
         {
@@ -21,11 +28,23 @@ namespace RPG.SceneManagement
 
         private IEnumerator Transition()
         {
+            if (sceneToLoad < 0)
+            {
+                Debug.LogWarning("Invalid scene index");
+                yield break;
+            }
+
+            Fader fader = FindObjectOfType<Fader>();
+
+            yield return fader.FadeOut(fadeOutTime);
+
             DontDestroyOnLoad(gameObject);
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
-
             Portal otherPortal = GetOtherPortal();
             UpdatePlayer(otherPortal);
+
+            yield return new WaitForSeconds(timeBetweenFades);
+            yield return fader.FadeIn(fadeInTime);
 
             Destroy(gameObject);
         }
@@ -33,15 +52,15 @@ namespace RPG.SceneManagement
         private void UpdatePlayer(Portal otherPortal)
         {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
-            player.transform.position = otherPortal.spawnPoint.position;
-            player.transform.rotation = otherPortal.spawnPoint.localRotation;
+            player.GetComponent<NavMeshAgent>().Warp(otherPortal.spawnPoint.position);
+            player.transform.rotation = otherPortal.spawnPoint.rotation;
         }
 
         private Portal GetOtherPortal()
         {
             foreach (Portal portal in FindObjectsOfType<Portal>())
             {
-                if (portal == this)
+                if (portal == this || portal.destination != this.destination)
                 {
                     continue;
                 }
