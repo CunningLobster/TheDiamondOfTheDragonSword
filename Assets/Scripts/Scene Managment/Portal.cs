@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
+using RPG.Saving;
 
 namespace RPG.SceneManagement
 {
@@ -33,15 +34,19 @@ namespace RPG.SceneManagement
                 Debug.LogWarning("Invalid scene index");
                 yield break;
             }
+            DontDestroyOnLoad(gameObject);
 
             Fader fader = FindObjectOfType<Fader>();
 
             yield return fader.FadeOut(fadeOutTime);
+            FindObjectOfType<SavingWrapper>().Save();
 
-            DontDestroyOnLoad(gameObject);
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
+
+            FindObjectOfType<SavingWrapper>().Load();
             Portal otherPortal = GetOtherPortal();
             UpdatePlayer(otherPortal);
+            FindObjectOfType<SavingWrapper>().Save();
 
             yield return new WaitForSeconds(timeBetweenFades);
             yield return fader.FadeIn(fadeInTime);
