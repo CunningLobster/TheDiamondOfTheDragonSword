@@ -5,7 +5,7 @@ using RPG.Saving;
 
 namespace RPG.Core
 {
-    public class Health : MonoBehaviour, ISaveable
+    public class Health : MonoBehaviour
     {
         [SerializeField] float healthPoints = 100f;
         bool isDead = false;
@@ -32,29 +32,5 @@ namespace RPG.Core
             isDead = true;
             GetComponent<ActionScheduler>().CancelCurrentAction();
         }
-
-        public object CaptureState()
-        {
-            return healthPoints;
-        }
-
-        public void RestoreState(object state)
-        {
-            healthPoints = (float)state;
-            if (healthPoints == 0)
-            {
-                Die();
-            }
-
-            if (healthPoints > 0) 
-            {
-                if (isDead)
-                {
-                    isDead = false;
-                    GetComponent<Animator>().SetTrigger("standAfterLoading");
-                }
-            }
-        }
-
     }
 }
