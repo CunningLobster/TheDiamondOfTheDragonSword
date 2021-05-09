@@ -55,10 +55,6 @@ namespace RPG.Movement
 
         public object CaptureState()
         {
-            if (GameObject.FindGameObjectWithTag("Player") == this.gameObject)
-            {               
-                Debug.Log("Save debug: " + transform.position);
-            }
             return new SerializableVector3(transform.position);
         }
 
@@ -67,11 +63,6 @@ namespace RPG.Movement
             SerializableVector3 position = (SerializableVector3)state;
             GetComponent<NavMeshAgent>().enabled = false;
             transform.position =  position.ToVector();
-
-            if (GameObject.FindGameObjectWithTag("Player") == this.gameObject)
-            {
-                Debug.Log("Load Debug: " + transform.position);
-            }
 
             GetComponent<NavMeshAgent>().enabled = true;
             GetComponent<ActionScheduler>().CancelCurrentAction();
