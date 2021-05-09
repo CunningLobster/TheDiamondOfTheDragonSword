@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace RPG.Saving
 {
@@ -17,7 +18,6 @@ namespace RPG.Saving
             CaptureState(state);
             SaveFile(savingFile, state);
         }
-
 
         public void Load(string savingFile)
         {

@@ -5,13 +5,12 @@ using RPG.Saving;
 
 namespace RPG.Core
 {
-    public class Health : MonoBehaviour
+    public class Health : MonoBehaviour, ISaveable
     {
         [SerializeField] float healthPoints = 100f;
         bool isDead = false;
 
         public bool IsDead{get{ return isDead; } }
-
 
         public void TakeDamage(float damage)
         {
@@ -32,5 +31,21 @@ namespace RPG.Core
             isDead = true;
             GetComponent<ActionScheduler>().CancelCurrentAction();
         }
+
+        public object CaptureState()
+        {
+            return healthPoints;
+        }
+
+        public void RestoreState(object state)
+        {
+            float currentHealthPoints = (float)state;
+            healthPoints = currentHealthPoints;
+            if (currentHealthPoints == 0)
+            {
+                Die();
+            }
+        }
+
     }
 }

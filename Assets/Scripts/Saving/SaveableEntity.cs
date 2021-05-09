@@ -1,8 +1,10 @@
 ﻿using RPG.Core;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace RPG.Saving
 {
@@ -10,6 +12,7 @@ namespace RPG.Saving
     public class SaveableEntity : MonoBehaviour
     {
         [SerializeField] private string uniqueIdentifier = "";
+        static Dictionary<string, SaveableEntity> globalLookup = new Dictionary<string, SaveableEntity>();
 
         public string GetUniqueIdentifier()
         {
@@ -24,7 +27,6 @@ namespace RPG.Saving
                 state[saveable.GetType().ToString()] = saveable.CaptureState();
             }
             return state;
-            //return new SerializableVector3(transform.position);
         }
 
         public void RestoreState(object state)
@@ -38,9 +40,6 @@ namespace RPG.Saving
                     saveable.RestoreState(stateDict[typeString]);
                 }
             }
-            //SerializableVector3 serializablePosition = (SerializableVector3)state;
-            //transform.position = serializablePosition.ToVector();
-            //GetComponent<ActionScheduler>().CancelCurrentAction();
         }
 
 #if UNITY_EDITOR
@@ -52,11 +51,33 @@ namespace RPG.Saving
             SerializedObject serializedObject = new SerializedObject(this);
             SerializedProperty property = serializedObject.FindProperty("uniqueIdentifier");
 
-            if (string.IsNullOrEmpty(property.stringValue))
+            if (string.IsNullOrEmpty(property.stringValue) || !IsUnique(property.stringValue))
             {
                 property.stringValue = System.Guid.NewGuid().ToString();
                 serializedObject.ApplyModifiedProperties();
             }
+
+            globalLookup[property.stringValue] = this; 
+        }
+
+        private bool IsUnique(string candidate)
+        {
+            if (!globalLookup.ContainsKey(candidate)) { return true; }
+            if (globalLookup[candidate] == this) { return true; }
+
+            if (globalLookup[candidate] == null)
+            {
+                globalLookup.Remove(candidate);
+                return true;
+            }
+
+            if (globalLookup[candidate].GetUniqueIdentifier() != candidate)
+            {
+                globalLookup.Remove(candidate);
+                return true;
+            }
+
+            return false;
         }
 #endif
     }
