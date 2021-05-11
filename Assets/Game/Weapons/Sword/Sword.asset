@@ -10,5 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b94fe9f0bb5708d40b9a630e14d143ba, type: 3}
-  m_Name: Weapon
+  m_Name: Sword
   m_EditorClassIdentifier: 
+  animatorOverride: {fileID: 22100000, guid: bb961c4c538128f4ba8657925afce7bc, type: 2}
+  weaponPrefab: {fileID: 4659442420988441913, guid: 42134a827eb02e043983182edf3160ed, type: 3}
+  weaponRange: 3
+  weaponDamage: 20
