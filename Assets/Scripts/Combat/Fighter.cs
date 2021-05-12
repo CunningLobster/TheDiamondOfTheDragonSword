@@ -90,7 +90,19 @@ namespace RPG.Combat
         void Hit()
         {
             if (target == null) { return; }
-            target.TakeDamage(currentWeapon.GetWeaponDamage());
+            if (currentWeapon.HasProjectile())
+            {
+                currentWeapon.LaunchProjectile(leftHandTransform, rightHandTransform, target);
+            }
+            else 
+            {
+                target.TakeDamage(currentWeapon.GetWeaponDamage());
+            }
+        }
+
+        void Shoot()
+        {
+            Hit();
         }
     }
 }
