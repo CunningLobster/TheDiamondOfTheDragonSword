@@ -1,4 +1,5 @@
 using RPG.Core;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,9 @@ namespace RPG.Combat
         [SerializeField] float weaponRange = 2f;
         [SerializeField] float weaponDamage = 20f;
         [SerializeField] bool isRightHanded = true;
-        Projectile projectile = null;
+        [SerializeField] Projectile projectile = null;
+
+        string weaponName = "weapon";
 
         public float GetWeaponRange()
         {
@@ -27,17 +30,33 @@ namespace RPG.Combat
 
         public void Spawn(Transform rightHand, Transform leftHand, Animator animator)
         {
-            Transform handTransform = GetTransform(rightHand, leftHand);
+            DestroyOldWeapon(rightHand, leftHand);
+
 
             if (weaponPrefab != null)
             {
-                Instantiate(weaponPrefab, handTransform);
+                Transform handTransform = GetTransform(rightHand, leftHand);
+                GameObject weapon = Instantiate(weaponPrefab, handTransform);
+                weapon.name = weaponName;
             }
 
             if (animatorOverride != null)
             {
                 animator.runtimeAnimatorController = animatorOverride;
             }
+        }
+
+        private void DestroyOldWeapon(Transform rightHand, Transform leftHand)
+        {
+            Transform oldWeapon = rightHand.Find(weaponName);
+            if (oldWeapon == null)
+            {
+                oldWeapon = leftHand.Find(weaponName);
+            }
+            if (oldWeapon == null) { return; }
+
+            oldWeapon.name = "DESTROYING";
+            Destroy(oldWeapon.gameObject);
         }
 
         private Transform GetTransform(Transform rightHand, Transform leftHand)
@@ -52,7 +71,7 @@ namespace RPG.Combat
         public void LaunchProjectile(Transform leftHand, Transform rightHand, Health target)
         {
             Projectile projectileInstanse =  Instantiate(projectile, GetTransform(leftHand, rightHand).position, Quaternion.identity);
-            projectileInstanse.SetTarget(target);
+            projectileInstanse.SetTarget(target, weaponDamage);
         }
 
         public bool HasProjectile()
