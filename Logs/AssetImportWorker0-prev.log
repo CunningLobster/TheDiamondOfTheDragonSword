@@ -1,0 +1,2737 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'ru' Physical Memory: 7908 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Yan\Unity\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Yan/Unity/Projects/TheDiamondOfTheDragonSword
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52122
+Successfully changed project path to: C:/Yan/Unity/Projects/TheDiamondOfTheDragonSword
+C:/Yan/Unity/Projects/TheDiamondOfTheDragonSword
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Yan/Unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Yan/Unity/Projects/TheDiamondOfTheDragonSword/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX230 (ID=0x1d11)
+    Vendor:   
+    VRAM:     1984 MB
+    Driver:   26.21.14.4137
+Initialize mono
+Mono path[0] = 'C:/Yan/Unity/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Yan/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Yan/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Yan/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001585 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1284 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.7 MB.
+System memory in use after: 75.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1747.
+Total: 2.123500 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.074800 ms MarkObjects: 1.721000 ms  DeleteObjects: 0.087400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Game/Pickups/Bow Pickup.prefab
+  artifactKey: Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Bow Pickup.prefab using Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0192b4483471fb7b48cd2fea1bdf5b0') in 0.128843 seconds
+  Import took 0.133382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 727.895348 seconds.
+  path: Assets/Game/Pickups/Weapon Pickup.prefab
+  artifactKey: Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Weapon Pickup.prefab using Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802de2bc076feec21e393405852ad60c') in 0.060412 seconds
+  Import took 0.065012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.920159 seconds.
+  path: Assets/Game/Pickups/Weapon Pickup.prefab
+  artifactKey: Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Weapon Pickup.prefab using Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d4e28529c0558cd8f6295afbc28ad2') in 0.010954 seconds
+  Import took 0.015388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.268542 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c330946a982ebc77dc34b18976ac8957') in 0.021841 seconds
+  Import took 0.024967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.853392 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39364cd4a45b3de13b2d4c00a6919991') in 0.029122 seconds
+  Import took 0.032693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.219998 seconds.
+  path: Assets/Game/Pickups/Bow Pickup.prefab
+  artifactKey: Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Bow Pickup.prefab using Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef80466307e4e731b870c1958941ec62') in 0.013729 seconds
+  Import took 0.021872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.772171 seconds.
+  path: Assets/Game/Core/Camera.prefab
+  artifactKey: Guid(a58866da8a6cb4c4d9c1b98976679951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Camera.prefab using Guid(a58866da8a6cb4c4d9c1b98976679951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd497d1b077406ce0878b04d9edaea122') in 0.025351 seconds
+  Import took 0.029155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Game/Core/Core.prefab
+  artifactKey: Guid(f2ea91d66ae23924aa76308e0015b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Core.prefab using Guid(f2ea91d66ae23924aa76308e0015b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad08a2ccc4d4688912d3d55d7e42c06') in 0.081723 seconds
+  Import took 0.085112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.024467 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Environment/Road/EA03_Environment_Road_Cobble_01a_PRE.prefab
+  artifactKey: Guid(2db5cf884e24ae74ba5afa31151e2453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Environment/Road/EA03_Environment_Road_Cobble_01a_PRE.prefab using Guid(2db5cf884e24ae74ba5afa31151e2453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5e59f29af06ea4331cd4296104b574') in 0.040262 seconds
+  Import took 0.043433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Environment/Road/EA03_Environment_Road_Cobble_01b_PRE.prefab
+  artifactKey: Guid(8e29bd443d493f14fbfdb399f8316b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Environment/Road/EA03_Environment_Road_Cobble_01b_PRE.prefab using Guid(8e29bd443d493f14fbfdb399f8316b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99653a505dc477ba976214c24084088') in 0.027550 seconds
+  Import took 0.031325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308763 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Environment/Road/EA03_Environment_Road_Cobble_Corner_01a_PRE.prefab
+  artifactKey: Guid(c4ed780c30c7f004b812e991fe6d7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Environment/Road/EA03_Environment_Road_Cobble_Corner_01a_PRE.prefab using Guid(c4ed780c30c7f004b812e991fe6d7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f02192ff0ca747974f904e5f329fd9c') in 0.030993 seconds
+  Import took 0.034256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Environment/Rock/EA03_Environment_Rock_Mini_Head_01a_PRE.prefab
+  artifactKey: Guid(feae48108558fbc49aa10a5c915abd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Environment/Rock/EA03_Environment_Rock_Mini_Head_01a_PRE.prefab using Guid(feae48108558fbc49aa10a5c915abd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e707eea005da1d9583e8d2cbe0f927') in 0.028058 seconds
+  Import took 0.032967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015171 seconds.
+  path: Assets/Game/Environment/EA03_Fence_Plank_02a_PRE.prefab
+  artifactKey: Guid(eb736a11e2ad7564eb316234731e2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Environment/EA03_Fence_Plank_02a_PRE.prefab using Guid(eb736a11e2ad7564eb316234731e2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dda1844191d4c970dbaa8b932321c6') in 0.022201 seconds
+  Import took 0.027518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Game/Environment/EA03_Fence_Plank_02b_PRE.prefab
+  artifactKey: Guid(020362122a092254db5d9023f1df2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Environment/EA03_Fence_Plank_02b_PRE.prefab using Guid(020362122a092254db5d9023f1df2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f023272214cca239594c49040b61342c') in 0.028968 seconds
+  Import took 0.032756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.436130 seconds.
+  path: Assets/Game/Environment/EA03_Fence_Plank_02c_PRE.prefab
+  artifactKey: Guid(5c1dd27df63891340b3e474164c30120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Environment/EA03_Fence_Plank_02c_PRE.prefab using Guid(5c1dd27df63891340b3e474164c30120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128e8c27bbfc79b72f04bd247b7ecd63') in 0.015881 seconds
+  Import took 0.018753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030596 seconds.
+  path: Assets/Game/Environment/EA03_Fence_Plank_02d_PRE.prefab
+  artifactKey: Guid(9a34b8623fe7e914c806ae497124e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Environment/EA03_Fence_Plank_02d_PRE.prefab using Guid(9a34b8623fe7e914c806ae497124e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5faea0971d9b207d7fce722f2e2562') in 0.015702 seconds
+  Import took 0.018354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000685 seconds.
+  path: Assets/Game/Environment/EA03_Fence_Plank_02d_PRE.prefab
+  artifactKey: Guid(9a34b8623fe7e914c806ae497124e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Environment/EA03_Fence_Plank_02d_PRE.prefab using Guid(9a34b8623fe7e914c806ae497124e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5faea0971d9b207d7fce722f2e2562') in 0.009348 seconds
+  Import took 0.012184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Food/EA03_Items_House_Apple_01c_PRE.prefab
+  artifactKey: Guid(ffbe2a214dd46c74bbaa090886ba87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Food/EA03_Items_House_Apple_01c_PRE.prefab using Guid(ffbe2a214dd46c74bbaa090886ba87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429e4fe11394016621e827bdb661b256') in 0.021203 seconds
+  Import took 0.024510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Besom_01a_PRE.prefab
+  artifactKey: Guid(3240fa7d641b05642a9fc92670faec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Besom_01a_PRE.prefab using Guid(3240fa7d641b05642a9fc92670faec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7622fcc01b9b209717a5415057903f16') in 0.023262 seconds
+  Import took 0.026875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.275659 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Bottle_01a_PRE.prefab
+  artifactKey: Guid(24a03f4ff6a389c4783be3862c88fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Bottle_01a_PRE.prefab using Guid(24a03f4ff6a389c4783be3862c88fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c593eb654c1bdad816605be3328fd746') in 0.030624 seconds
+  Import took 0.033226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_BredBoard_01a_PRE.prefab
+  artifactKey: Guid(dbe9353ac8cafe44c9705937e8c1c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_BredBoard_01a_PRE.prefab using Guid(dbe9353ac8cafe44c9705937e8c1c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9253f726af18162364c449bf945366d') in 0.028996 seconds
+  Import took 0.032317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020958 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Cup_01a_PRE.prefab
+  artifactKey: Guid(577f3886dcc589649a230e4523de4d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Cup_01a_PRE.prefab using Guid(577f3886dcc589649a230e4523de4d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdc43fa552b73df14d44842d15496a3') in 0.034811 seconds
+  Import took 0.037630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Firewood_01a_PRE.prefab
+  artifactKey: Guid(9890d8d383f3c3c46ba75093f437b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Firewood_01a_PRE.prefab using Guid(9890d8d383f3c3c46ba75093f437b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f40fa1c297c2286bc6f3f9ec793244') in 0.032772 seconds
+  Import took 0.035709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Spoon_01a_PRE.prefab
+  artifactKey: Guid(49cb1db37d2f2bf40947e40e03f795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Spoon_01a_PRE.prefab using Guid(49cb1db37d2f2bf40947e40e03f795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e751f49b015c86112b1c896feb36d5') in 0.027953 seconds
+  Import took 0.032103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Firewood_01a_PRE.prefab
+  artifactKey: Guid(9890d8d383f3c3c46ba75093f437b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Firewood_01a_PRE.prefab using Guid(9890d8d383f3c3c46ba75093f437b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f40fa1c297c2286bc6f3f9ec793244') in 0.013587 seconds
+  Import took 0.018569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Spoon_01a_PRE.prefab
+  artifactKey: Guid(49cb1db37d2f2bf40947e40e03f795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Spoon_01a_PRE.prefab using Guid(49cb1db37d2f2bf40947e40e03f795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e751f49b015c86112b1c896feb36d5') in 0.025408 seconds
+  Import took 0.027803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173060 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_01b_PRE.prefab
+  artifactKey: Guid(e03898b14a86f234a97b28e18ce3a154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_01b_PRE.prefab using Guid(e03898b14a86f234a97b28e18ce3a154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2e5b915fdfaa8ef72033560b41e70f') in 0.026644 seconds
+  Import took 0.029539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_03b_PRE.prefab
+  artifactKey: Guid(9cd2dd4d6232e7042ae210310ee2cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_03b_PRE.prefab using Guid(9cd2dd4d6232e7042ae210310ee2cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd4db97a02811d5e2888b1c6f22b960') in 0.022750 seconds
+  Import took 0.026057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_01b_PRE.prefab
+  artifactKey: Guid(e03898b14a86f234a97b28e18ce3a154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_01b_PRE.prefab using Guid(e03898b14a86f234a97b28e18ce3a154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2e5b915fdfaa8ef72033560b41e70f') in 0.015473 seconds
+  Import took 0.017964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Nature/EA03_Plant_Grass_01e_PRE.prefab
+  artifactKey: Guid(99e86460e9bfcf644956d799c342fee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Nature/EA03_Plant_Grass_01e_PRE.prefab using Guid(99e86460e9bfcf644956d799c342fee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9de74471f7158ac5ea25c03714d1636') in 0.024242 seconds
+  Import took 0.027590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Prop/Carpentry/EA03_Prop_Brushwood_03a_PRE.prefab
+  artifactKey: Guid(1c639f495d926094e8fc0ca59c3ddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Prop/Carpentry/EA03_Prop_Brushwood_03a_PRE.prefab using Guid(1c639f495d926094e8fc0ca59c3ddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746d56df1a3fe364a939341a5871ad93') in 0.029668 seconds
+  Import took 0.032153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010294 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Prop/Carpentry/EA03_Prop_Brushwood_03a_PRE.prefab
+  artifactKey: Guid(1c639f495d926094e8fc0ca59c3ddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Prop/Carpentry/EA03_Prop_Brushwood_03a_PRE.prefab using Guid(1c639f495d926094e8fc0ca59c3ddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746d56df1a3fe364a939341a5871ad93') in 0.019948 seconds
+  Import took 0.023464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.632265 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bowl_01.fbx
+  artifactKey: Guid(379f0651a43088c4e83e0b80e5982d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bowl_01.fbx using Guid(379f0651a43088c4e83e0b80e5982d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b58d875ce00b9a13b987a1b9f30640') in 0.139137 seconds
+  Import took 0.142650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.554025 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_metal_01c.fbx
+  artifactKey: Guid(bb6405d0387f01a49a96a321a75e3ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_metal_01c.fbx using Guid(bb6405d0387f01a49a96a321a75e3ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371a064a6c19de51321033c7d8de73df') in 0.039589 seconds
+  Import took 0.042689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.628424 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_metal_PRE.prefab
+  artifactKey: Guid(9bdc637fb8b469245bf2dcc990b26551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_metal_PRE.prefab using Guid(9bdc637fb8b469245bf2dcc990b26551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8cd48eb1eae2ed97f204dbd67f0a04') in 0.021470 seconds
+  Import took 0.024012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019457 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_spoon_01a_PRE.prefab
+  artifactKey: Guid(37c5698a453a3b9489d364465122470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_spoon_01a_PRE.prefab using Guid(37c5698a453a3b9489d364465122470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72995430f6a662115324019417a0ce66') in 0.027464 seconds
+  Import took 0.030410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106370 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod.fbx
+  artifactKey: Guid(12da85f96e7b10748997a139f608eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod.fbx using Guid(12da85f96e7b10748997a139f608eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670caf9a3ca4f00c73f75fcf86c2680b') in 0.037294 seconds
+  Import took 0.040762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163613 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_2.fbx
+  artifactKey: Guid(d390f7be5d30cac429d05cc9fdea3abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_2.fbx using Guid(d390f7be5d30cac429d05cc9fdea3abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5903198a84f1869a062e07fd00a49b') in 0.057556 seconds
+  Import took 0.060410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005477 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_2.fbx
+  artifactKey: Guid(d390f7be5d30cac429d05cc9fdea3abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_2.fbx using Guid(d390f7be5d30cac429d05cc9fdea3abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5903198a84f1869a062e07fd00a49b') in 0.064141 seconds
+  Import took 0.067490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329485 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wod_2_PRE.prefab
+  artifactKey: Guid(102fd982bf89df0479b0f7ae49aa713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wod_2_PRE.prefab using Guid(102fd982bf89df0479b0f7ae49aa713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac223f8744a346bf8a081c87651365c') in 0.025290 seconds
+  Import took 0.028105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102049 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_powder_01a.fbx
+  artifactKey: Guid(90aa71f5e770f204599d5838b0a54704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_powder_01a.fbx using Guid(90aa71f5e770f204599d5838b0a54704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70154beb6947ad0414462b5af219949c') in 0.049649 seconds
+  Import took 0.052238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570747 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wod_PRE.prefab
+  artifactKey: Guid(5951f971024a62945a70df5f4c2985e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wod_PRE.prefab using Guid(5951f971024a62945a70df5f4c2985e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c22d3876d3f1f2c847ccdc9723deff') in 0.021754 seconds
+  Import took 0.024336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wooden_powder_02a_PRE.prefab
+  artifactKey: Guid(3f6657538fc1b5b40a92930900607b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wooden_powder_02a_PRE.prefab using Guid(3f6657538fc1b5b40a92930900607b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7534581b4b1d2ef3b0731da4ec230042') in 0.034796 seconds
+  Import took 0.037120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001758 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wooden_powder_02a_PRE.prefab
+  artifactKey: Guid(3f6657538fc1b5b40a92930900607b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wooden_powder_02a_PRE.prefab using Guid(3f6657538fc1b5b40a92930900607b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7534581b4b1d2ef3b0731da4ec230042') in 0.010941 seconds
+  Import took 0.014837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025958 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.png
+  artifactKey: Guid(829e6fcc12b43aa489f42177cc0bb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.png using Guid(829e6fcc12b43aa489f42177cc0bb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6be452a942fa8dc0b7db99e80549d95') in 0.030851 seconds
+  Import took 0.033357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214544 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.fbx
+  artifactKey: Guid(4f18c80df16a4ae4194559bba2f3ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.fbx using Guid(4f18c80df16a4ae4194559bba2f3ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335bb49f9840c3d8020cf1d4cae51691') in 0.017867 seconds
+  Import took 0.021088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014480 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.mat
+  artifactKey: Guid(e6969e6a3fc702b4ca4e7564bb1bdde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.mat using Guid(e6969e6a3fc702b4ca4e7564bb1bdde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b2daf0f6a814a35167afb8ff6b98c2') in 0.027141 seconds
+  Import took 0.029467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.673314 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ba8d70c432f418b03f66d3cf51e20b') in 0.021800 seconds
+  Import took 0.025422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.901141 seconds.
+  path: Assets/Game/Pickups/Bow Pickup.prefab
+  artifactKey: Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Bow Pickup.prefab using Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5811abc120103e38cad38ad1a50e7b8a') in 0.020958 seconds
+  Import took 0.023846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Game/Pickups/Weapon Pickup.prefab
+  artifactKey: Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Weapon Pickup.prefab using Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f645f8f77f0a6e9759db234cf032ce2b') in 0.042520 seconds
+  Import took 0.046117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Pick_01a.fbx
+  artifactKey: Guid(4add47ba41295f942a4619be44d62f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Pick_01a.fbx using Guid(4add47ba41295f942a4619be44d62f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a1d00b4fd8c0746410656c4ddd31df') in 0.068797 seconds
+  Import took 0.071692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Items/Tool/EA03_Prop_Tool_Pick_01a_PRE.prefab
+  artifactKey: Guid(091d14a26038cb34e8f8c03f3212574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Items/Tool/EA03_Prop_Tool_Pick_01a_PRE.prefab using Guid(091d14a26038cb34e8f8c03f3212574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd142635340f1b4a28b7d7422aa87f496') in 0.015317 seconds
+  Import took 0.018592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.245581 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8713a62ac7933fc5467b5a0e680a2188') in 0.021564 seconds
+  Import took 0.026631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.115004 seconds.
+  path: Assets/Game/Pickups/Bow Pickup.prefab
+  artifactKey: Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Bow Pickup.prefab using Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eaa595c75f069cd90c93413323a4a8') in 0.017004 seconds
+  Import took 0.021183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Texture/EA02_LPNP-Slavika_Colorsheet_v1.png
+  artifactKey: Guid(4f4a523b69ecaf542bcff16bc65d3002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Texture/EA02_LPNP-Slavika_Colorsheet_v1.png using Guid(4f4a523b69ecaf542bcff16bc65d3002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4596ca6347901316a34c533a24c3019') in 0.009617 seconds
+  Import took 0.012158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.269826 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042882e203ba3f79c43653de5baa111b') in 0.016594 seconds
+  Import took 0.019516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.525185 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a1d83a5d67571fd2ce240907b1f627') in 0.020064 seconds
+  Import took 0.025255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.763622 seconds.
+  path: Assets/Game/Pickups/Bow Pickup.prefab
+  artifactKey: Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Bow Pickup.prefab using Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b06b9bf6f9b00c6635e2af9e752ea25') in 0.019548 seconds
+  Import took 0.024302 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1277 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1798.
+Total: 1.651700 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.360200 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.452178 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528c1395b3bfe8903879897617246854') in 0.069505 seconds
+  Import took 0.072809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002128 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528c1395b3bfe8903879897617246854') in 0.023610 seconds
+  Import took 0.028239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.379113 seconds.
+  path: Assets/Game/Pickups/Bow Pickup.prefab
+  artifactKey: Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Bow Pickup.prefab using Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13eb918ec802387174b47c8670d39292') in 0.028615 seconds
+  Import took 0.031006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Game/Pickups/Weapon Pickup.prefab
+  artifactKey: Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Weapon Pickup.prefab using Guid(6a7cec4eba95cfa498d1ef1391b0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8681483a87c9bf2179d490be308774') in 0.003492 seconds
+  Import took 0.008273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(bb4ef959a7dbb38488ce923c1e1191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ec6dbbed706621d3ad14714a5ae479') in 0.035502 seconds
+  Import took 0.039837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.538456 seconds.
+  path: Assets/Game/Pickups/Bow Pickup.prefab
+  artifactKey: Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Bow Pickup.prefab using Guid(da5984aabbb814b49ab183ef22eb5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ee425f6d1b47587acc5b75fa1e7c69') in 0.016453 seconds
+  Import took 0.022050 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1802.
+Total: 1.941100 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.069900 ms MarkObjects: 1.626400 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1805.
+Total: 1.826800 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.578600 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4845.572776 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab
+  artifactKey: Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab using Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676bc3e6c9b6e0112d07b2bdc9d3a7b6') in 0.075296 seconds
+  Import took 0.078008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Player.prefab
+  artifactKey: Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Player.prefab using Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a06ef97551f41c5653c978b22a5971a') in 0.020803 seconds
+  Import took 0.023761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab
+  artifactKey: Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab using Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3603946383c5528e6e66dd06de61fc6d') in 0.043947 seconds
+  Import took 0.047337 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1809.
+Total: 1.734900 ms (FindLiveObjects: 0.171900 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.504400 ms  DeleteObjects: 0.012200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1812.
+Total: 2.262500 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.083300 ms MarkObjects: 1.884100 ms  DeleteObjects: 0.018600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1815.
+Total: 2.423100 ms (FindLiveObjects: 0.310500 ms CreateObjectMapping: 0.112800 ms MarkObjects: 1.979700 ms  DeleteObjects: 0.018400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1818.
+Total: 3.848800 ms (FindLiveObjects: 0.386400 ms CreateObjectMapping: 0.062900 ms MarkObjects: 3.371200 ms  DeleteObjects: 0.025900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 3.367100 ms (FindLiveObjects: 0.647400 ms CreateObjectMapping: 0.141500 ms MarkObjects: 2.550100 ms  DeleteObjects: 0.024700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000657 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1824.
+Total: 1.807500 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.049300 ms MarkObjects: 1.551900 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 498.948270 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab
+  artifactKey: Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab using Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892eabf6d65de755b802f71148221bf7') in 0.057116 seconds
+  Import took 0.059516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Player.prefab
+  artifactKey: Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Player.prefab using Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e13115530a74eb4bedf02b0bc79447') in 0.012136 seconds
+  Import took 0.016165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab
+  artifactKey: Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab using Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566cbb23e1b7a68529e4593ccff1a7f3') in 0.049191 seconds
+  Import took 0.052239 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.4 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1828.
+Total: 1.890000 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.656100 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.827826 seconds.
+  path: Assets/Game/Characters/Archer.prefab
+  artifactKey: Guid(339ff24cd373cde4b9c079ce229e051a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/Archer.prefab using Guid(339ff24cd373cde4b9c079ce229e051a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442b0ea864e7eafc144e89083c8f6dc3') in 0.107196 seconds
+  Import took 0.111548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Game/Characters/Enemy.prefab
+  artifactKey: Guid(85559508529307147954464ae17474ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/Enemy.prefab using Guid(85559508529307147954464ae17474ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668626793c8ae9380b30ac899a4157b9') in 0.052565 seconds
+  Import took 0.057557 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.4 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1832.
+Total: 2.008500 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.779500 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.112045 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab
+  artifactKey: Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab using Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a6d64b7000178eff6397d6a463b206') in 0.072957 seconds
+  Import took 0.076836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009663 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab
+  artifactKey: Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab using Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a6d64b7000178eff6397d6a463b206') in 0.010508 seconds
+  Import took 0.013095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.982278 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab
+  artifactKey: Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab using Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5ce5bbdb8e659d881d92aa1f734147') in 0.012255 seconds
+  Import took 0.015111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Player.prefab
+  artifactKey: Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Player.prefab using Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0ff77546fa846ad9d3cc9133adc3c8') in 0.011541 seconds
+  Import took 0.016507 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.4 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 2.014500 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.730600 ms  DeleteObjects: 0.054000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1409.862329 seconds.
+  path: Assets/Game/Weapons/Fireball/Fireall.asset
+  artifactKey: Guid(6ee078a669ed5174b9734d89eeefda51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Fireball/Fireall.asset using Guid(6ee078a669ed5174b9734d89eeefda51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79529cd4d6d78488a2133971828e3cab') in 0.020947 seconds
+  Import took 0.024094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.641846 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860341bef491291fa74ca442bc1fa24a') in 0.077562 seconds
+  Import took 0.080264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.823338 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b34fd305f71cf8054a2911ae97c79d') in 0.010210 seconds
+  Import took 0.015964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.091607 seconds.
+  path: Assets/Game/Weapons/Fireball/Fireball.asset
+  artifactKey: Guid(6ee078a669ed5174b9734d89eeefda51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Fireball/Fireball.asset using Guid(6ee078a669ed5174b9734d89eeefda51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4d5bb62e53f8e72789d8d3c2c148fa') in 0.008982 seconds
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.326600 seconds.
+  path: Assets/Game/Pickups/Fireball Pickup.prefab
+  artifactKey: Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Fireball Pickup.prefab using Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cf4a30e88e0689cc144ff25e983ceb') in 0.009170 seconds
+  Import took 0.012695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.326899 seconds.
+  path: Assets/Game/Pickups/Fireball Pickup.prefab
+  artifactKey: Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Fireball Pickup.prefab using Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb10185159d998b32ccdd957a5fea78') in 0.026703 seconds
+  Import took 0.029381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.684437 seconds.
+  path: Assets/Game/Pickups/Fireball Pickup.prefab
+  artifactKey: Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Fireball Pickup.prefab using Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7fc8de09a8baf1b2967c339a49d341') in 0.017701 seconds
+  Import took 0.021065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002446 seconds.
+  path: Assets/Game/Pickups/Fireball Pickup.prefab
+  artifactKey: Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Fireball Pickup.prefab using Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7fc8de09a8baf1b2967c339a49d341') in 0.013395 seconds
+  Import took 0.015843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.661979 seconds.
+  path: Assets/Game/Weapons/Fireball/FireballOverrideController.overrideController
+  artifactKey: Guid(9190fee0356155e4fbdf26112587e8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Fireball/FireballOverrideController.overrideController using Guid(9190fee0356155e4fbdf26112587e8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41383635741c374cf7e1ce54fd7a9ac9') in 0.009777 seconds
+  Import took 0.013102 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1841.
+Total: 1.677000 ms (FindLiveObjects: 0.153800 ms CreateObjectMapping: 0.065700 ms MarkObjects: 1.434600 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13156.825955 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab
+  artifactKey: Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow Projectile.prefab using Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7e278ba132f35b8f598dddb25ed307') in 0.032489 seconds
+  Import took 0.035908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Player.prefab
+  artifactKey: Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Player.prefab using Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1ad4fd8347693ead112da2b100cec1') in 0.010198 seconds
+  Import took 0.015001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab
+  artifactKey: Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab using Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0aaf59da5913c5256d92ae28d39b9b') in 0.011223 seconds
+  Import took 0.014984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15024e1cb88becffeab7af0d48d60918') in 0.006670 seconds
+  Import took 0.010357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008901 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15024e1cb88becffeab7af0d48d60918') in 0.007814 seconds
+  Import took 0.011168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.252892 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Arrow.mat
+  artifactKey: Guid(3482dd3d1cf3c3844b8c2f25b95800a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Arrow.mat using Guid(3482dd3d1cf3c3844b8c2f25b95800a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51465977fac62602b9a571c796d3e2bf') in 0.065777 seconds
+  Import took 0.068721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Arrow.png
+  artifactKey: Guid(2e6d68933b64db744bb72b2109325e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Arrow.png using Guid(2e6d68933b64db744bb72b2109325e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3c4051cc5e5078e4899e4088cd5571') in 0.024187 seconds
+  Import took 0.028178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Carrot_01a.fbx
+  artifactKey: Guid(1f99f3cf77ae55146affb1811e50c8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Carrot_01a.fbx using Guid(1f99f3cf77ae55146affb1811e50c8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b6e11d689b8b212bc4980c98aa1cf6') in 0.087427 seconds
+  Import took 0.090890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Arrow.png
+  artifactKey: Guid(2e6d68933b64db744bb72b2109325e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Arrow.png using Guid(2e6d68933b64db744bb72b2109325e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3c4051cc5e5078e4899e4088cd5571') in 0.010989 seconds
+  Import took 0.013898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Simple Arrow.fbx
+  artifactKey: Guid(07119b288adf12542aa4497154e38e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Simple Arrow.fbx using Guid(07119b288adf12542aa4497154e38e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04fd256cc0b46e1814545c8d4dab190') in 0.033894 seconds
+  Import took 0.036298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.081235 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab
+  artifactKey: Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab using Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e13ed545b19dc8de6700c98ed469422') in 0.020322 seconds
+  Import took 0.024231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.512498 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab
+  artifactKey: Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Enemy.prefab using Guid(2fc73e3c8033b924ea401e3603ca4277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7842856e9612ab574ce26a387c50f32a') in 0.014866 seconds
+  Import took 0.017732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.089345 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Player.prefab
+  artifactKey: Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Player.prefab using Guid(8d6f6ff12656a7a4b8345cc51e979c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348e77657667481f2eb73302713c4b93') in 0.016589 seconds
+  Import took 0.019312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.679386 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de41d35bdb2e585115794e52c808450') in 0.006685 seconds
+  Import took 0.009713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Game/Weapons/Projectiles/Projectile.prefab
+  artifactKey: Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Projectile.prefab using Guid(7af5b83958e132143b52fddc36fd3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fe7c6a5fca0b0e989fb03596e7ce53') in 0.010763 seconds
+  Import took 0.014172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.095559 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Projectile.prefab
+  artifactKey: Guid(84ed98e008d241f408e1003bba9f1bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Projectile.prefab using Guid(84ed98e008d241f408e1003bba9f1bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b78f8330b51d98083d8ec8303825067') in 0.012074 seconds
+  Import took 0.015489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.915899 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Brushwood_03a.fbx
+  artifactKey: Guid(7711dbac294ab964da7ef592d0a651b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Brushwood_03a.fbx using Guid(7711dbac294ab964da7ef592d0a651b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03be0937f17512d96951f9e512f2f478') in 0.061017 seconds
+  Import took 0.064397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bag_02a.fbx
+  artifactKey: Guid(a018acf8aa42612409be67810b627e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bag_02a.fbx using Guid(a018acf8aa42612409be67810b627e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0125a7d8aed540fb89f34f983341c1e') in 0.068718 seconds
+  Import took 0.070937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.620828 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Barrel_01d.fbx
+  artifactKey: Guid(7764483340bf24949af7c09f03fe50d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Barrel_01d.fbx using Guid(7764483340bf24949af7c09f03fe50d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d066cf8385d90276290bc88c20ef3af') in 0.056455 seconds
+  Import took 0.059290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.564980 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Projectile.prefab
+  artifactKey: Guid(84ed98e008d241f408e1003bba9f1bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Projectile.prefab using Guid(84ed98e008d241f408e1003bba9f1bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec730df2ef2f3eaea2ad1db4962f458') in 0.018830 seconds
+  Import took 0.021991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.386882 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Blue.prefab
+  artifactKey: Guid(8be369e9b94511c49b223552c6010a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Blue.prefab using Guid(8be369e9b94511c49b223552c6010a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3d1b2c1b2ecdb0f5162bb650863d0a') in 0.022252 seconds
+  Import took 0.027451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.091623 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Blue.prefab
+  artifactKey: Guid(8be369e9b94511c49b223552c6010a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Blue.prefab using Guid(8be369e9b94511c49b223552c6010a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef7cb4f8826550b727b5ee5ec7922b0') in 0.008977 seconds
+  Import took 0.012215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.120997 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Red.prefab
+  artifactKey: Guid(d472ff86e77595341ba682adef7ee065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Red.prefab using Guid(d472ff86e77595341ba682adef7ee065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c703850cdc21a159d65012a812aec0') in 0.025327 seconds
+  Import took 0.028355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.645608 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow_Red.prefab
+  artifactKey: Guid(d472ff86e77595341ba682adef7ee065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow_Red.prefab using Guid(d472ff86e77595341ba682adef7ee065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d2b09dd2c9b5310fe10cdd15199e03') in 0.011865 seconds
+  Import took 0.014906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.905167 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eed0e9d9a640851a4e2c6802ba9f226') in 0.014604 seconds
+  Import took 0.017253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.337454 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball/FireMaterial.mat
+  artifactKey: Guid(347e3a9e4c46e5247bb0a239d656d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball/FireMaterial.mat using Guid(347e3a9e4c46e5247bb0a239d656d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988f486bedd4013a894e0432c7d46afe') in 0.018065 seconds
+  Import took 0.021048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.903445 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc08532244c592d8e7b5478d09bc128') in 0.016610 seconds
+  Import took 0.019744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.676334 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eb9a995b92519639eed61173653a57') in 0.528388 seconds
+  Import took 0.534447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016335 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eb9a995b92519639eed61173653a57') in 0.019018 seconds
+  Import took 0.023340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.036250 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c929e0fded8f574b93167f7596c70667') in 0.020282 seconds
+  Import took 0.024205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.701098 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Club/Materials and Model/SM_Wep_Club_01.fbx
+  artifactKey: Guid(a489902bab2ab954b83e07d163c87e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Club/Materials and Model/SM_Wep_Club_01.fbx using Guid(a489902bab2ab954b83e07d163c87e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1187bdb382f3827aaa3978a4ed82c793') in 0.031476 seconds
+  Import took 0.035386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Materials and Model/SM_Wep_Pitchfork_01.fbx
+  artifactKey: Guid(ff3b4d87e9a2fa446a46d48257dd3659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Materials and Model/SM_Wep_Pitchfork_01.fbx using Guid(ff3b4d87e9a2fa446a46d48257dd3659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c298013324d8231d1cb22e5a18fc837') in 0.031401 seconds
+  Import took 0.034235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.201736 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_05.fbx
+  artifactKey: Guid(b2c9c2c5cab7ba4488b2631a33c16c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_05.fbx using Guid(b2c9c2c5cab7ba4488b2631a33c16c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf1d681c21c42737b9c51dfaf1d9be7') in 0.051843 seconds
+  Import took 0.054754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Prop_Hunter_Animal_Trophy_01a.fbx
+  artifactKey: Guid(a2f9d8f2d3e86874c8cb739deca457ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Prop_Hunter_Animal_Trophy_01a.fbx using Guid(a2f9d8f2d3e86874c8cb739deca457ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c89f7af448ade1d8894af7e6b22033') in 0.069944 seconds
+  Import took 0.073062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_04.fbx
+  artifactKey: Guid(b1390cea618c0d4468b6860e020625d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_04.fbx using Guid(b1390cea618c0d4468b6860e020625d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a5261638c835eab05662e386123932') in 0.063891 seconds
+  Import took 0.066973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_03.fbx
+  artifactKey: Guid(f5ec718ca794918469b599f90e27fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_03.fbx using Guid(f5ec718ca794918469b599f90e27fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446e905002d17a0429e2baa033529eb0') in 0.063627 seconds
+  Import took 0.068904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.300778 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_02.fbx
+  artifactKey: Guid(c372d80c3e97e7f48ba4c4482af5b13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_02.fbx using Guid(c372d80c3e97e7f48ba4c4482af5b13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7a867695140a63d91c3f79bf809826') in 0.052346 seconds
+  Import took 0.055678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_soon_wooden.fbx
+  artifactKey: Guid(0855f54a13378d54082bfa3148cc5ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_soon_wooden.fbx using Guid(0855f54a13378d54082bfa3148cc5ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b545025c71d38ec0a9385df27d6e94') in 0.052202 seconds
+  Import took 0.056115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_pan_empty_01a.fbx
+  artifactKey: Guid(ae024c3e1ae079546a061550ce88ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_pan_empty_01a.fbx using Guid(ae024c3e1ae079546a061550ce88ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bce332c6162a3b8d6f506c296856201') in 0.092327 seconds
+  Import took 0.096208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.430318 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01b.fbx
+  artifactKey: Guid(9ed8f0123ad60624e87f3ddcd0949986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01b.fbx using Guid(9ed8f0123ad60624e87f3ddcd0949986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb9a5f603c3749bdd7ae58cfa245859') in 0.057779 seconds
+  Import took 0.061313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01a.fbx
+  artifactKey: Guid(c73f3ec04424b484592476d4de9ff226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01a.fbx using Guid(c73f3ec04424b484592476d4de9ff226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98c3be7151d8100a57b232a56a823a4') in 0.058035 seconds
+  Import took 0.061028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_step_platform_Stair_R_03a.fbx
+  artifactKey: Guid(75ae7666976ca6948ac43a95180ef1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_step_platform_Stair_R_03a.fbx using Guid(75ae7666976ca6948ac43a95180ef1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7df2097d41bf43755973e6847089ed') in 0.067466 seconds
+  Import took 0.070431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_04h.fbx
+  artifactKey: Guid(045c5ae697b279e4794a7c8d9f3e1e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_04h.fbx using Guid(045c5ae697b279e4794a7c8d9f3e1e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a201c142bf7f3f578e73ef788128ee1c') in 0.062105 seconds
+  Import took 0.064794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_04b.fbx
+  artifactKey: Guid(8b9175d6598bd614abcc74740ea0012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_04b.fbx using Guid(8b9175d6598bd614abcc74740ea0012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bc31c8620d1e911f679cfe0af8381a') in 0.059857 seconds
+  Import took 0.062797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Town_Ill_Roof_01b.fbx
+  artifactKey: Guid(752cdcbf93262af44a9a365bc1aae4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Town_Ill_Roof_01b.fbx using Guid(752cdcbf93262af44a9a365bc1aae4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f16d8fc1a446b9e00bd0859d956d858') in 0.067664 seconds
+  Import took 0.070549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Pillow_01d.fbx
+  artifactKey: Guid(642bbb7897dcde44e9917d410cac5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Pillow_01d.fbx using Guid(642bbb7897dcde44e9917d410cac5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ff860e3ef813e405d3832ac87b3d33') in 0.050571 seconds
+  Import took 0.053746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01a.fbx
+  artifactKey: Guid(fb814a59022e8554e86bcd2ce8087540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01a.fbx using Guid(fb814a59022e8554e86bcd2ce8087540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1506c0c46fe9b33f56bcca688cca34d2') in 0.056248 seconds
+  Import took 0.058778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Chest_02a.fbx
+  artifactKey: Guid(b6814f96c7f305e4f982c84f3d888a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Chest_02a.fbx using Guid(b6814f96c7f305e4f982c84f3d888a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8653ab86afebbeae51b5a7933838b131') in 0.054026 seconds
+  Import took 0.056664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01c.fbx
+  artifactKey: Guid(fefb188aa51cd2247ac69d79ad42b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01c.fbx using Guid(fefb188aa51cd2247ac69d79ad42b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01933ce5c90eb7edfd6ec3228406308e') in 0.061372 seconds
+  Import took 0.064575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_02d.fbx
+  artifactKey: Guid(13bb0042dbcee09478650939e9f2d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_02d.fbx using Guid(13bb0042dbcee09478650939e9f2d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f33046e6625f3aafdab4bd7232515a') in 0.062918 seconds
+  Import took 0.066332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Apple_01c.fbx
+  artifactKey: Guid(df9db6549c9345248b5bf8204520cdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Apple_01c.fbx using Guid(df9db6549c9345248b5bf8204520cdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85039e2fdec714da5a32c8eb463dcff') in 0.047925 seconds
+  Import took 0.050646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Environment_Rock_Head_01a.fbx
+  artifactKey: Guid(d4fd32c3fd3334f429f4b01b3068c916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Environment_Rock_Head_01a.fbx using Guid(d4fd32c3fd3334f429f4b01b3068c916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7f804e7c5d2a8826bcba1eb90443c0') in 0.049156 seconds
+  Import took 0.051975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Environment_Road_Cobble_01b.fbx
+  artifactKey: Guid(75d05aceb1aabe94b8c7d358857e604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Environment_Road_Cobble_01b.fbx using Guid(75d05aceb1aabe94b8c7d358857e604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98259bc4c3eca5ba51cccab8920e0059') in 0.054991 seconds
+  Import took 0.058005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Village_Ladder_02a.fbx
+  artifactKey: Guid(65eda0c3b934409488f4868dba95a65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Village_Ladder_02a.fbx using Guid(65eda0c3b934409488f4868dba95a65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643efa87ea6245a7396940532fe891dc') in 0.049299 seconds
+  Import took 0.052236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001035 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_BredBoard_01a.fbx
+  artifactKey: Guid(2137813e38c7b504aa81ea4d4d0bd663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_BredBoard_01a.fbx using Guid(2137813e38c7b504aa81ea4d4d0bd663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e74b4e34290a9c852ad457580c75a6') in 0.047721 seconds
+  Import took 0.050451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_kettle_empty_01a.fbx
+  artifactKey: Guid(64269ae04169bfa4faf3bb8f18263056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_kettle_empty_01a.fbx using Guid(64269ae04169bfa4faf3bb8f18263056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589375c0a8486359e4e61f5cf8e2b368') in 0.052503 seconds
+  Import took 0.054843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02d.fbx
+  artifactKey: Guid(82cb0bafcb85fc3448ad508983ff1194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02d.fbx using Guid(82cb0bafcb85fc3448ad508983ff1194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7593593ef83d1dd1483c5fd18debb490') in 0.050223 seconds
+  Import took 0.053244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Convenience_01a.fbx
+  artifactKey: Guid(7e3464691be8900418a72b728b9cfe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Convenience_01a.fbx using Guid(7e3464691be8900418a72b728b9cfe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f89fcc51b34e689b06a8dea7685ec3') in 0.061209 seconds
+  Import took 0.063644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Apple_01a.fbx
+  artifactKey: Guid(ac60a1e5147f37f4ea437303b92a771f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Apple_01a.fbx using Guid(ac60a1e5147f37f4ea437303b92a771f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbd544279b17f42bef7d252f19809ba') in 0.054874 seconds
+  Import took 0.058227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01a.fbx
+  artifactKey: Guid(32fa229b2d542da4ea1b8de2d762355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01a.fbx using Guid(32fa229b2d542da4ea1b8de2d762355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91c04da16c93fca5c10d7573c33c99a') in 0.050916 seconds
+  Import took 0.053378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_01a.fbx
+  artifactKey: Guid(31705d47a8a190a42a2ebd3d27b7f5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_01a.fbx using Guid(31705d47a8a190a42a2ebd3d27b7f5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3c333aeb1ebd85704644d04ac2ed00') in 0.048002 seconds
+  Import took 0.050129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Village_Hut_Foundation_02b.fbx
+  artifactKey: Guid(a39e54eda47beb84daec65dffc50bd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Village_Hut_Foundation_02b.fbx using Guid(a39e54eda47beb84daec65dffc50bd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa395711c523b17d7d5dc332d39eec6') in 0.053179 seconds
+  Import took 0.056337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Stool_01a.fbx
+  artifactKey: Guid(0d8a9daf36a4e2c4fa3c49f6c0827792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Stool_01a.fbx using Guid(0d8a9daf36a4e2c4fa3c49f6c0827792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e872ace5671eab35d171f67398ffa15e') in 0.049582 seconds
+  Import took 0.052346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Forester_wooden_01d.fbx
+  artifactKey: Guid(d9dfdee99a6a7834292c848b8682da8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Forester_wooden_01d.fbx using Guid(d9dfdee99a6a7834292c848b8682da8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc9539b8f448ef4a0bc6bceccfc7e21') in 0.051244 seconds
+  Import took 0.053976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Besom_01a.fbx
+  artifactKey: Guid(964f0c37f9d4d0f4c9dda09cbcfdbfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Besom_01a.fbx using Guid(964f0c37f9d4d0f4c9dda09cbcfdbfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153030e56aec01b38788d131cf5485e2') in 0.049813 seconds
+  Import took 0.052125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Vegetable_Basket_02.fbx
+  artifactKey: Guid(470ed647bc0f8fa4b8633a2821ec5a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Vegetable_Basket_02.fbx using Guid(470ed647bc0f8fa4b8633a2821ec5a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fad3d15115cf82c4c4ab19e7cf973d') in 0.048498 seconds
+  Import took 0.050663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_02.fbx
+  artifactKey: Guid(ecb9c0970df71054ba737cea1a00120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_02.fbx using Guid(ecb9c0970df71054ba737cea1a00120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5003dff3fd54450c3b20fc47151ec413') in 0.050712 seconds
+  Import took 0.053011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02c.fbx
+  artifactKey: Guid(c42a5db3829d76948ad314f7761737f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02c.fbx using Guid(c42a5db3829d76948ad314f7761737f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d5dd1a0b3fb6f33aaf0dbbb6a98e82') in 0.049776 seconds
+  Import took 0.053691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Basket_01.fbx
+  artifactKey: Guid(4ccd36a85ba57a74eb8759860c7b3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Basket_01.fbx using Guid(4ccd36a85ba57a74eb8759860c7b3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3350320cb9d9a49d2b6aa8da0c09f8f7') in 0.048630 seconds
+  Import took 0.050748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Stool_02a.fbx
+  artifactKey: Guid(c05b38c4cb6d56443af89f2587f8a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Stool_02a.fbx using Guid(c05b38c4cb6d56443af89f2587f8a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1abcfee8ada5c69a48f9bda51b53999') in 0.050015 seconds
+  Import took 0.052176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Environment_Road_Cobble_Corner_01a.fbx
+  artifactKey: Guid(89e8d684965d9284295aa3a97326c576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Environment_Road_Cobble_Corner_01a.fbx using Guid(89e8d684965d9284295aa3a97326c576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114591956a500b629a40d4d2df81105d') in 0.049426 seconds
+  Import took 0.051822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Nature_Tree_01b.fbx
+  artifactKey: Guid(13ec5d0bbf56c734d9422c7089f60980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Nature_Tree_01b.fbx using Guid(13ec5d0bbf56c734d9422c7089f60980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4597c1432c719100729d8edbbdf2940') in 0.060290 seconds
+  Import took 0.062796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Firewood_01a.fbx
+  artifactKey: Guid(780ff2e8fc3d55b40bde8b2ebf2c24c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Firewood_01a.fbx using Guid(780ff2e8fc3d55b40bde8b2ebf2c24c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c46546b60ac1877fc5253e852d7312') in 0.056230 seconds
+  Import took 0.058947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_01i.fbx
+  artifactKey: Guid(c231ab4bdde8ca245b5f0ad0ee2ffa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_01i.fbx using Guid(c231ab4bdde8ca245b5f0ad0ee2ffa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b0803204f34fac63e2bb196f140fd2') in 0.067399 seconds
+  Import took 0.070930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Prefabs/Compound/Walls/EA03_Plant_Grass_01e.fbx
+  artifactKey: Guid(c3f5ebd294edb9e468222b22e0edd694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Prefabs/Compound/Walls/EA03_Plant_Grass_01e.fbx using Guid(c3f5ebd294edb9e468222b22e0edd694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c56e2b5b49e374dc632a8d28928d25') in 0.049905 seconds
+  Import took 0.052359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_02a.fbx
+  artifactKey: Guid(ebce493bda9473e4e9895e76b409a2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_02a.fbx using Guid(ebce493bda9473e4e9895e76b409a2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbf72653d7ef7f030f18b413b9c6b44') in 0.049453 seconds
+  Import took 0.051902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_04a.fbx
+  artifactKey: Guid(f6abdef6e96d7554bab4cae54ac1516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_04a.fbx using Guid(f6abdef6e96d7554bab4cae54ac1516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7594d30152b84b6dd5d5512941d69a48') in 0.051314 seconds
+  Import took 0.053873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_02c.fbx
+  artifactKey: Guid(d5c62c647c224aa48b7726a6d4a8afdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_02c.fbx using Guid(d5c62c647c224aa48b7726a6d4a8afdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5661f67fd8b0726ab674d9dd34f66082') in 0.058865 seconds
+  Import took 0.062069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01g.fbx
+  artifactKey: Guid(4fe658bda7c79114a9e825d286e3a6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01g.fbx using Guid(4fe658bda7c79114a9e825d286e3a6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9ebabfa827b6b2ea28f4ec86edb09a') in 0.059517 seconds
+  Import took 0.063016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02a.fbx
+  artifactKey: Guid(9acbb48a36abbf644aa940a03eecaab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02a.fbx using Guid(9acbb48a36abbf644aa940a03eecaab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4f9321c2b24738dacfc99d04d5762d') in 0.057956 seconds
+  Import took 0.060966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01c.fbx
+  artifactKey: Guid(f49e25a3b35dc5141a32b754e00fd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01c.fbx using Guid(f49e25a3b35dc5141a32b754e00fd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed2401f0861c488d73c0e2c28cef717') in 0.059126 seconds
+  Import took 0.063313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Prop_House_Shutter_01e.fbx
+  artifactKey: Guid(3f5532580310a2d459f769441f1c781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Prop_House_Shutter_01e.fbx using Guid(3f5532580310a2d459f769441f1c781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b021a8dc69419e330d223cd8ebfb1577') in 0.066009 seconds
+  Import took 0.069689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01a.fbx
+  artifactKey: Guid(18e6697db3d760b458f4b70bc98f7d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01a.fbx using Guid(18e6697db3d760b458f4b70bc98f7d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f054dad9ce785e6c3fda4de10f75ff1') in 0.058117 seconds
+  Import took 0.061723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Stove_01b.fbx
+  artifactKey: Guid(e64ea82d588c49545958c888183be02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Stove_01b.fbx using Guid(e64ea82d588c49545958c888183be02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b52c1265bedc784c87468de81251dfe') in 0.064940 seconds
+  Import took 0.067816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01b.fbx
+  artifactKey: Guid(8647ab6061606654c8ae1905d1949196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01b.fbx using Guid(8647ab6061606654c8ae1905d1949196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ec2518ee49e71a1c12d53974298d59') in 0.059866 seconds
+  Import took 0.063333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_04e.fbx
+  artifactKey: Guid(7c39965b26d41264aa2e9d96d16c8b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_04e.fbx using Guid(7c39965b26d41264aa2e9d96d16c8b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36564d64802969e75d5490c78404068e') in 0.067143 seconds
+  Import took 0.070108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_03a.fbx
+  artifactKey: Guid(bc95e47ba4b19a24db9583856173a412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_03a.fbx using Guid(bc95e47ba4b19a24db9583856173a412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3158d78dc3125267774e7f32d3a785af') in 0.063760 seconds
+  Import took 0.066648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bale_01a.fbx
+  artifactKey: Guid(b46259b262101f3409567ebbc98c8247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bale_01a.fbx using Guid(b46259b262101f3409567ebbc98c8247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71b9d836434b87cca506a4c0cd4b507') in 0.062523 seconds
+  Import took 0.065812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Balcony_R_01a.fbx
+  artifactKey: Guid(3cdab808e659dab48a77f94903885475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Balcony_R_01a.fbx using Guid(3cdab808e659dab48a77f94903885475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2209c7a05497b68ac31c21944d6313e3') in 0.077894 seconds
+  Import took 0.083051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01d.fbx
+  artifactKey: Guid(7fe480ce6a490174a961d9d0ac9efc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01d.fbx using Guid(7fe480ce6a490174a961d9d0ac9efc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3446046e41d30a8efd2e1876b49726') in 0.072493 seconds
+  Import took 0.076752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Shelf_01c.fbx
+  artifactKey: Guid(b7d00c90d4fec2a49aada1bebaa7a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Shelf_01c.fbx using Guid(b7d00c90d4fec2a49aada1bebaa7a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca177a89d7b08d3cbb9600af12550a3') in 0.056902 seconds
+  Import took 0.060599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_03a.fbx
+  artifactKey: Guid(36d03d6d713b9eb42b9dc68d1f4d1e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_03a.fbx using Guid(36d03d6d713b9eb42b9dc68d1f4d1e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af41bb796a71ca8dbb658ec07e676cd8') in 0.059600 seconds
+  Import took 0.063901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Nature_Tree_03b.fbx
+  artifactKey: Guid(4d1c05dfe6108f84698a160ee267841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Nature_Tree_03b.fbx using Guid(4d1c05dfe6108f84698a160ee267841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60ef29eb5856f618f7dde40c16c42f7') in 0.063830 seconds
+  Import took 0.068153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_01a.fbx
+  artifactKey: Guid(c0c7b14491863c241a11772765f86d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_01a.fbx using Guid(c0c7b14491863c241a11772765f86d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ab41e676503a4f131ade230bd06d3d') in 0.071041 seconds
+  Import took 0.073680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Corn_01a.fbx
+  artifactKey: Guid(9d00add0f73545e43b7bdecefc895d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Corn_01a.fbx using Guid(9d00add0f73545e43b7bdecefc895d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d92aaf0a4ee94ed88f95ec6a854e60c') in 0.056144 seconds
+  Import took 0.059293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tabble_02a.fbx
+  artifactKey: Guid(f4ce1aacfc1c4fe458d340af857e9d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tabble_02a.fbx using Guid(f4ce1aacfc1c4fe458d340af857e9d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fd73a5f7e82f5319a77c2d1ed588ff') in 0.057933 seconds
+  Import took 0.061108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02b.fbx
+  artifactKey: Guid(9a6b68b124304da48b60c294a6e0376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02b.fbx using Guid(9a6b68b124304da48b60c294a6e0376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5fcb314b33e6031eb3e4445c3a0747') in 0.061029 seconds
+  Import took 0.065285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirt Old Hoe.fbx
+  artifactKey: Guid(eee292b300b8dfa41be00641ff83b2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirt Old Hoe.fbx using Guid(eee292b300b8dfa41be00641ff83b2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc487a4f892ea46371e3a3377526fb89') in 0.034879 seconds
+  Import took 0.038394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_kettle_01a.fbx
+  artifactKey: Guid(938d24eb3c15ada4f9e3900c8cc3bfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_kettle_01a.fbx using Guid(938d24eb3c15ada4f9e3900c8cc3bfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfeed0f89819511dd9199c90bf82a17') in 0.058090 seconds
+  Import took 0.061155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_HouseModule_Porch_R_03b.fbx
+  artifactKey: Guid(42208ee65d50f4b4aa6eae18b24287e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_HouseModule_Porch_R_03b.fbx using Guid(42208ee65d50f4b4aa6eae18b24287e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db431832eaf4719fe0fecc28177e098') in 0.080829 seconds
+  Import took 0.084620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000976 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02e.fbx
+  artifactKey: Guid(9812e6affbcc3744f97cd1c6a266bacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02e.fbx using Guid(9812e6affbcc3744f97cd1c6a266bacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3df2d371a41d2502c5ea05a0b11d3a5') in 0.067025 seconds
+  Import took 0.070287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_soup_01a.fbx
+  artifactKey: Guid(eb40964df52421b4eb9f339426df2791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_soup_01a.fbx using Guid(eb40964df52421b4eb9f339426df2791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13164944efb28b59c5a7632d0ffaf19') in 0.057250 seconds
+  Import took 0.060488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01d.fbx
+  artifactKey: Guid(d586b1c8084ec0f41a977d8fcc404990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01d.fbx using Guid(d586b1c8084ec0f41a977d8fcc404990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfaccefd4561d9d74007d5432f14503') in 0.058149 seconds
+  Import took 0.061989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_mug_02a.fbx
+  artifactKey: Guid(0ce66a9e7766dc7459519ea22d100950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA_Items_House_mug_02a.fbx using Guid(0ce66a9e7766dc7459519ea22d100950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7468781bb8c8fcfadde6014718a666d') in 0.059138 seconds
+  Import took 0.062910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_AnimalSkin_01c.fbx
+  artifactKey: Guid(e9a9eff224f379e4ab249584f7ed4a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_AnimalSkin_01c.fbx using Guid(e9a9eff224f379e4ab249584f7ed4a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf9c95bb09c707ff561806b38cc5d9e') in 0.058981 seconds
+  Import took 0.063517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_02i.fbx
+  artifactKey: Guid(04e6236850221664a92860d51717c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_02i.fbx using Guid(04e6236850221664a92860d51717c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40f861bd6d90349f2cca1affacc1946') in 0.067910 seconds
+  Import took 0.071259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Bottle_01a.fbx
+  artifactKey: Guid(7419ec3279586984092aa99f26308880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Bottle_01a.fbx using Guid(7419ec3279586984092aa99f26308880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b876cdc2339786e048b3becee3f129') in 0.057734 seconds
+  Import took 0.060956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Front_02a.fbx
+  artifactKey: Guid(1ce8c072405e7274fa145d02a18fac73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Front_02a.fbx using Guid(1ce8c072405e7274fa145d02a18fac73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4a9cf3a3751db5e887d5ebc62c7f47') in 0.063087 seconds
+  Import took 0.066150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bed_01a.004.fbx
+  artifactKey: Guid(34a3e6c5d7f9337469118e21236729ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bed_01a.004.fbx using Guid(34a3e6c5d7f9337469118e21236729ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e078e5e3e043be57e692fbc8121d30') in 0.063024 seconds
+  Import took 0.066657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Spoon_01a.fbx
+  artifactKey: Guid(95f15f585b121524294035bb2011866f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Spoon_01a.fbx using Guid(95f15f585b121524294035bb2011866f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23eea870d4897dedd4dfd7c6f1565f46') in 0.054082 seconds
+  Import took 0.057439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01a.fbx
+  artifactKey: Guid(1fbffa5408e364f4f81ae10cf69ba3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01a.fbx using Guid(1fbffa5408e364f4f81ae10cf69ba3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b1c8bd0252ce2032d83f9eb3ed4d7d') in 0.058335 seconds
+  Import took 0.061499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Cubby_01d.fbx
+  artifactKey: Guid(6ee362c65b6f7d0468ee697b6fa177f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Cubby_01d.fbx using Guid(6ee362c65b6f7d0468ee697b6fa177f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1bf12d96b13c63925073250c3967a3') in 0.075082 seconds
+  Import took 0.079116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Stump_02a.fbx
+  artifactKey: Guid(69b9fb8b93ab03b43b08cb7d05ad286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Stump_02a.fbx using Guid(69b9fb8b93ab03b43b08cb7d05ad286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9688e381c11a6c59ddd5da22304698f1') in 0.060271 seconds
+  Import took 0.064084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Apple_01b.fbx
+  artifactKey: Guid(683aa6683b22b244287d19b08050959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Apple_01b.fbx using Guid(683aa6683b22b244287d19b08050959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a2b5a895c31799e0a1510b7b7175a2') in 0.055320 seconds
+  Import took 0.058387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tabble_01a.fbx
+  artifactKey: Guid(182a919d67edf954198ec0f464311a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Tabble_01a.fbx using Guid(182a919d67edf954198ec0f464311a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b85df3e25c8c824f41a32fa6f4952c') in 0.058753 seconds
+  Import took 0.061759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Town_Building_Administrative _01a.fbx
+  artifactKey: Guid(8c06a8469c34d86469295b9327c93b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Town_Building_Administrative _01a.fbx using Guid(8c06a8469c34d86469295b9327c93b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980d10d1f59137c0a15c83d9266ab8bd') in 0.093558 seconds
+  Import took 0.096638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02c.fbx
+  artifactKey: Guid(0941fc100f37a6b4babe0bc7ec19a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02c.fbx using Guid(0941fc100f37a6b4babe0bc7ec19a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eba42d9aa77c8b5be9ec2dfd3917593') in 0.064311 seconds
+  Import took 0.066863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Town_Ill_Roof_01a.fbx
+  artifactKey: Guid(a24843a2bac54d949b6ed63cef4f50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Town_Ill_Roof_01a.fbx using Guid(a24843a2bac54d949b6ed63cef4f50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6949ce21d0bbbe90306329662357c88') in 0.073488 seconds
+  Import took 0.076894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Shelf_01b.fbx
+  artifactKey: Guid(703f93609c602a04e9323bea22985490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Shelf_01b.fbx using Guid(703f93609c602a04e9323bea22985490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a7470614df4eea620b8328fab71b94') in 0.057259 seconds
+  Import took 0.060568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Ceiling_01e.fbx
+  artifactKey: Guid(de708639cc9e7e2429d0f70d6792357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Ceiling_01e.fbx using Guid(de708639cc9e7e2429d0f70d6792357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cef4328ddd9d90e16c263ce2e7dadf') in 0.065473 seconds
+  Import took 0.068848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Hanger_01b.fbx
+  artifactKey: Guid(3ec3980c47838d74a9b181fd252db2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_House_Hanger_01b.fbx using Guid(3ec3980c47838d74a9b181fd252db2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f09f898814c5a3b3ba4e4d97ba9c31') in 0.057666 seconds
+  Import took 0.060376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Environment_Road_Cobble_01a.fbx
+  artifactKey: Guid(784b4593ae6c56942a99223a33dcc169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Environment_Road_Cobble_01a.fbx using Guid(784b4593ae6c56942a99223a33dcc169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8e12e1ca57bf9a96306a90124c4c46') in 0.058873 seconds
+  Import took 0.062111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Cup_01a.fbx
+  artifactKey: Guid(a1da319082eff5a4b9df4b85ef047790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Items_House_Cup_01a.fbx using Guid(a1da319082eff5a4b9df4b85ef047790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287536695509f93d7f7503a1bfaf49ff') in 0.056370 seconds
+  Import took 0.058989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Withy_Seam_02a.fbx
+  artifactKey: Guid(7268d2cf1dfb8c54bbade433947d851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Fence_Withy_Seam_02a.fbx using Guid(7268d2cf1dfb8c54bbade433947d851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93cccbf58ec55a42a00c25afd563a13') in 0.065720 seconds
+  Import took 0.068547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.025592 seconds.
+  path: Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/UnlitMaterial 1.mat
+  artifactKey: Guid(66837b006e11a1a4d8fd5fb6f0a7836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/UnlitMaterial 1.mat using Guid(66837b006e11a1a4d8fd5fb6f0a7836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a82c5a210b2869ff25d3586f6947e0') in 0.079146 seconds
+  Import took 0.082683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Materials and Model/Wood_Normal.mat
+  artifactKey: Guid(3295c0c2c4d77824aa17c15a6f40b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Materials and Model/Wood_Normal.mat using Guid(3295c0c2c4d77824aa17c15a6f40b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd811014074d0bb3151f03dd507b1644b') in 0.041834 seconds
+  Import took 0.044896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.210176 seconds.
+  path: Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/Skyboxes/Sunny1 Skybox.mat
+  artifactKey: Guid(a2126534b3a11b34e977105bd9e3cc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/Skyboxes/Sunny1 Skybox.mat using Guid(a2126534b3a11b34e977105bd9e3cc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa408a5a06c597ec3669d5b78cc4259') in 0.083215 seconds
+  Import took 0.085978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes/Skybox/Skybox_SBS Sci-Fi & Fantasy 4 Large.mat
+  artifactKey: Guid(a6c8bcc045582be47b06f708578d8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Skybox/Skybox_SBS Sci-Fi & Fantasy 4 Large.mat using Guid(a6c8bcc045582be47b06f708578d8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ec1b8c50e9d9f2241e8c3908a4e2f7') in 1.951802 seconds
+  Import took 1.993714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Asset Packs/Slavic World Free/_CommonFiles/OtherMaterials/EA03_LPNP-Slavika_Grass.mat
+  artifactKey: Guid(953d3192356053f479f39aeb9eb960b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/_CommonFiles/OtherMaterials/EA03_LPNP-Slavika_Grass.mat using Guid(953d3192356053f479f39aeb9eb960b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571b37155892b08345d222c2c800c4bf') in 0.394275 seconds
+  Import took 0.399606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_wind.mat
+  artifactKey: Guid(7561046860f36724da94256e380c7d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_wind.mat using Guid(7561046860f36724da94256e380c7d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8190fe2767990f34a9d79256fd685d53') in 0.355504 seconds
+  Import took 0.359884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/TerrainBumpedMaterial.mat
+  artifactKey: Guid(cb7ee3d569bc19e4fa157f4d8c37da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/TerrainBumpedMaterial.mat using Guid(cb7ee3d569bc19e4fa157f4d8c37da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc96b58f3fbb1054d61d43f51257df6d') in 0.305793 seconds
+  Import took 0.309463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_v2.mat
+  artifactKey: Guid(b481e7ffe886010488e5c917b97f7d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_v2.mat using Guid(b481e7ffe886010488e5c917b97f7d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35c8d4bc052f1705d5d3e37033ac6fc') in 0.028297 seconds
+  Import took 0.031434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds.mat
+  artifactKey: Guid(5d0ef7cbda2ac05459b326d9ebbcc118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds.mat using Guid(5d0ef7cbda2ac05459b326d9ebbcc118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba42d9624b44f3ddfefa3e9bce9e23e') in 0.102241 seconds
+  Import took 0.104991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Asset Packs/Slavic World Free/TerrainSetting/SlavicaTerrainFree.mat
+  artifactKey: Guid(473997133d9bc2244b2950ee44180a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/TerrainSetting/SlavicaTerrainFree.mat using Guid(473997133d9bc2244b2950ee44180a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83de35664170c983aca3c8d6dbafa6b') in 0.400267 seconds
+  Import took 0.403141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 695.601523 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab
+  artifactKey: Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball/Fireball_Projectile.prefab using Guid(c35681cfc31c72d499d475d03b23bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffccf389327f031cec7e15a2c05bc0f') in 0.014993 seconds
+  Import took 0.019238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.303934 seconds.
+  path: Assets/Game/Weapons
+  artifactKey: Guid(0426f342f3c5d734ea14a6bae3acd0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons using Guid(0426f342f3c5d734ea14a6bae3acd0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a205aba92374e01e21cdc311f98c97') in 0.006547 seconds
+  Import took 0.009054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.889585 seconds.
+  path: Assets/Game/Weapons/Projectiles/Arrow
+  artifactKey: Guid(880f4e9b52615fb479b7417d503fef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Arrow using Guid(880f4e9b52615fb479b7417d503fef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dd9ad5413723ffb2e5d7f6d6cd5cbf') in 0.007140 seconds
+  Import took 0.009683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.723848 seconds.
+  path: Assets/Game/Weapons/Fireball
+  artifactKey: Guid(3060a1d7d4993a743988eb95130c5654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Fireball using Guid(3060a1d7d4993a743988eb95130c5654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fe797f50c2cd03f36326e52e5eb54f') in 0.007841 seconds
+  Import took 0.010056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.253657 seconds.
+  path: Assets/Game
+  artifactKey: Guid(9b7c5b09bbf9d884aa48c6bbf64924eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game using Guid(9b7c5b09bbf9d884aa48c6bbf64924eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c346eafc6de47ade5bfe70d7463abb') in 0.007952 seconds
+  Import took 0.010176 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1851.
+Total: 3.437000 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.078100 ms MarkObjects: 3.007500 ms  DeleteObjects: 0.068800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 2.217200 ms (FindLiveObjects: 0.548600 ms CreateObjectMapping: 0.074300 ms MarkObjects: 1.575800 ms  DeleteObjects: 0.015700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000897 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1857.
+Total: 1.994500 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.749900 ms  DeleteObjects: 0.015000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001055 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+Total: 2.006000 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.089900 ms MarkObjects: 1.633000 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 579.013767 seconds.
+  path: Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/UnlitMaterial.mat
+  artifactKey: Guid(81cfe52a1467c93498a561e6899557d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/UnlitMaterial.mat using Guid(81cfe52a1467c93498a561e6899557d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1fb5aeebc0b4fa4068ef95bedc3e38') in 0.089968 seconds
+  Import took 0.093247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.273805 seconds.
+  path: Assets/Asset Packs/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Skybox_SBS Sci-Fi & Fantasy 4 Medium.mat
+  artifactKey: Guid(eabbc8cf5771b97498d8b527dd6e384d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Skybox_SBS Sci-Fi & Fantasy 4 Medium.mat using Guid(eabbc8cf5771b97498d8b527dd6e384d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e018db2005cf8ae90199a5d219e1761') in 0.445181 seconds
+  Import took 0.453375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Asset Packs/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Skybox_SBS Sci-Fi & Fantasy 4 Small.mat
+  artifactKey: Guid(77c8cb1df62be9747a4fb4e8be5e2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Skybox_SBS Sci-Fi & Fantasy 4 Small.mat using Guid(77c8cb1df62be9747a4fb4e8be5e2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159ec2d17447b72328bcc6f256c11bf3') in 0.127001 seconds
+  Import took 0.129979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Terrain/SlavicaTerrainDemo.mat
+  artifactKey: Guid(3cfffe3571edb72408130af112d67edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Terrain/SlavicaTerrainDemo.mat using Guid(3cfffe3571edb72408130af112d67edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a852a32cca4c7c3b5cb88568c563a2') in 0.020920 seconds
+  Import took 0.023127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat
+  artifactKey: Guid(eb83b2b658dfc194e8b26c4421e3c748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat using Guid(eb83b2b658dfc194e8b26c4421e3c748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c221e27cb182099301273c55de8503') in 0.036405 seconds
+  Import took 0.039924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.809898 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_v1.mat
+  artifactKey: Guid(af96a88a0e2b1cf4a99427ecf41ebbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_v1.mat using Guid(af96a88a0e2b1cf4a99427ecf41ebbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0135d5c54835038734c2a6dc29a5c46b') in 0.024647 seconds
+  Import took 0.027762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Asset Packs/Slavic World Free/_CommonFiles/OtherMaterials/EA03_LPNP-Slavika_Colorsheet_v3.mat
+  artifactKey: Guid(d5b545cf21e29c747893331f5e2d695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/_CommonFiles/OtherMaterials/EA03_LPNP-Slavika_Colorsheet_v3.mat using Guid(d5b545cf21e29c747893331f5e2d695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a64404c870ad700359a619035dacc1') in 0.025726 seconds
+  Import took 0.028142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_v1.mat
+  artifactKey: Guid(af96a88a0e2b1cf4a99427ecf41ebbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_v1.mat using Guid(af96a88a0e2b1cf4a99427ecf41ebbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0135d5c54835038734c2a6dc29a5c46b') in 0.025187 seconds
+  Import took 0.028795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Asset Packs/Slavic World Free/_CommonFiles/OtherMaterials/EA03_LPNP-Slavika_Colorsheet_v3.mat
+  artifactKey: Guid(d5b545cf21e29c747893331f5e2d695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/_CommonFiles/OtherMaterials/EA03_LPNP-Slavika_Colorsheet_v3.mat using Guid(d5b545cf21e29c747893331f5e2d695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a64404c870ad700359a619035dacc1') in 0.025586 seconds
+  Import took 0.029070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_wind_tree.mat
+  artifactKey: Guid(832aba01891ef884caabb15bdd767a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_wind_tree.mat using Guid(832aba01891ef884caabb15bdd767a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e7e61c7725c43b1204ab0f1c528789') in 0.029968 seconds
+  Import took 0.032858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.172807 seconds.
+  path: Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_AnimalSkin_01b.fbx
+  artifactKey: Guid(17c165cd03e14754583367f8b65896a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Slavic World Free/Resources/LOD3/EA03_Prop_Town_AnimalSkin_01b.fbx using Guid(17c165cd03e14754583367f8b65896a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f403637aae4ee88189b6b00b3e9b7e') in 0.095798 seconds
+  Import took 0.098987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.220262 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirty Old Hoe.mat
+  artifactKey: Guid(0754ff2960a855b4b9535c598af02f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirty Old Hoe.mat using Guid(0754ff2960a855b4b9535c598af02f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7222ceb413e042d0a077c699a8eb7a4') in 0.036525 seconds
+  Import took 0.039947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/BlackMat.mat
+  artifactKey: Guid(d9c07eda3dceab04db68ebf814681197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Grass And Flowers Pack 1/Example Scene/BlackMat.mat using Guid(d9c07eda3dceab04db68ebf814681197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577e6d03bcec5052f7b08a8fa01397ad') in 0.128998 seconds
+  Import took 0.131337 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000954 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1864.
+Total: 2.494100 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.045300 ms MarkObjects: 2.261100 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1867.
+Total: 2.315800 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.071000 ms MarkObjects: 1.915700 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1277 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1870.
+Total: 2.318200 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.976100 ms  DeleteObjects: 0.111800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1277 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1873.
+Total: 2.536600 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.056000 ms MarkObjects: 2.151600 ms  DeleteObjects: 0.075900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1277 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 2.615300 ms (FindLiveObjects: 0.285700 ms CreateObjectMapping: 0.072300 ms MarkObjects: 2.118800 ms  DeleteObjects: 0.136000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1452.204706 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball/FireMaterial.mat
+  artifactKey: Guid(347e3a9e4c46e5247bb0a239d656d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball/FireMaterial.mat using Guid(347e3a9e4c46e5247bb0a239d656d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7466f8af04e8499c6359c9f59860b02d') in 0.075229 seconds
+  Import took 0.077892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Asset Packs/SimpleFX/Materials/FX_Glow.mat
+  artifactKey: Guid(040cfa3c61ad57946ae16c627e338920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Materials/FX_Glow.mat using Guid(040cfa3c61ad57946ae16c627e338920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba936d71e5ff1a617d564730604a3dbe') in 0.014663 seconds
+  Import took 0.017202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Asset Packs/SimpleFX/Materials/FX_Lightray.mat
+  artifactKey: Guid(7e0b60daf18511249a209d52beda2988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Materials/FX_Lightray.mat using Guid(7e0b60daf18511249a209d52beda2988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25566e765b72268b1ec5435f8b4bdcd9') in 0.052105 seconds
+  Import took 0.054933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Game/Weapons/Projectiles/Fireball/FireMaterial.mat
+  artifactKey: Guid(347e3a9e4c46e5247bb0a239d656d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Projectiles/Fireball/FireMaterial.mat using Guid(347e3a9e4c46e5247bb0a239d656d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7466f8af04e8499c6359c9f59860b02d') in 0.014023 seconds
+  Import took 0.017186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Asset Packs/SimpleFX/Materials/FX_Water.mat
+  artifactKey: Guid(daf5714b1bd61c84fb8f439922ec2664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Materials/FX_Water.mat using Guid(daf5714b1bd61c84fb8f439922ec2664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f78f4654e884d3c56f303bf5c2316') in 0.046048 seconds
+  Import took 0.050066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Asset Packs/SimpleFX/Materials/FX_GunFlash.mat
+  artifactKey: Guid(f1b0fea076fb0574d868f6e3d9523f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Materials/FX_GunFlash.mat using Guid(f1b0fea076fb0574d868f6e3d9523f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79336617a8638ee617a9b1fbe314bee') in 0.014484 seconds
+  Import took 0.018752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Asset Packs/SimpleFX/Materials/FX_Base.mat
+  artifactKey: Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Materials/FX_Base.mat using Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9d6c67956b2bd904c467a4149bf6e8') in 0.017372 seconds
+  Import took 0.020134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Asset Packs/SimpleFX/Materials/FX_Splash.mat
+  artifactKey: Guid(1ee00051305bdb049b02c923f047227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Materials/FX_Splash.mat using Guid(1ee00051305bdb049b02c923f047227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c14654eb9fbf183d35fbebce50f9e55') in 0.020068 seconds
+  Import took 0.023001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Asset Packs/SimpleFX/Materials/FX_Rubble.mat
+  artifactKey: Guid(7a9bced7715b2c047b5413e33bc60d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Materials/FX_Rubble.mat using Guid(7a9bced7715b2c047b5413e33bc60d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defd2c26039c106cbde91357047b9447') in 0.017805 seconds
+  Import took 0.020581 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1277 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1883.
+Total: 1.888000 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.576100 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.885613 seconds.
+  path: Assets/Game/Pickups/Fireball Pickup.prefab
+  artifactKey: Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Fireball Pickup.prefab using Guid(2eec5320754ec7a47b61d54eb5596f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0005a50315153bb030ebc7288afd05') in 0.129447 seconds
+  Import took 0.133557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.683371 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_BloodSplatter.prefab
+  artifactKey: Guid(8c27aeead6d968e4ba986702d6b84335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_BloodSplatter.prefab using Guid(8c27aeead6d968e4ba986702d6b84335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd817686b8786f3e2969f236a415fa3d2') in 0.010529 seconds
+  Import took 0.014155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab
+  artifactKey: Guid(cd427f0dc853ec74a9ba1c5ff0e48ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab using Guid(cd427f0dc853ec74a9ba1c5ff0e48ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4636b35b6f66ca65cea1a13a6414bf5') in 0.008964 seconds
+  Import took 0.011427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab
+  artifactKey: Guid(1570b78163aaedc44bfd35cf13a9f13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab using Guid(1570b78163aaedc44bfd35cf13a9f13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab8b05fcd5eee4e1c287fc0250f2d28') in 0.012811 seconds
+  Import took 0.015508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_DirtSplatter.prefab
+  artifactKey: Guid(834c99069a124aa439d5795c3579843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_DirtSplatter.prefab using Guid(834c99069a124aa439d5795c3579843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5add33044f03712c0b61e5954c99d6a9') in 0.010882 seconds
+  Import took 0.013458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_Fire.prefab
+  artifactKey: Guid(756d99540142b5e4a8d174e18a6310d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_Fire.prefab using Guid(756d99540142b5e4a8d174e18a6310d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cc4d3a87efca06ed9c7b42d3714a7d') in 0.007876 seconds
+  Import took 0.010232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab
+  artifactKey: Guid(079954accd64b32419ec069129c81273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab using Guid(079954accd64b32419ec069129c81273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7cb1fc69868e51da6e528d20a7499e') in 0.008083 seconds
+  Import took 0.010513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab
+  artifactKey: Guid(c83a45822d0d3f94991e76a87670125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab using Guid(c83a45822d0d3f94991e76a87670125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eedcccd3df14ea1f33522e5fccbddf') in 0.007761 seconds
+  Import took 0.010041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030368 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab
+  artifactKey: Guid(c83a45822d0d3f94991e76a87670125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab using Guid(c83a45822d0d3f94991e76a87670125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eedcccd3df14ea1f33522e5fccbddf') in 0.004092 seconds
+  Import took 0.006973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.224027 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab
+  artifactKey: Guid(5702e2a6fea804b45b49b70d8feaf7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab using Guid(5702e2a6fea804b45b49b70d8feaf7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee830dae0396cbfbb0c70f4a9d61d4ee') in 0.036615 seconds
+  Import took 0.040910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070925 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab
+  artifactKey: Guid(6636b3078b0905e489f698a11b7a6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab using Guid(6636b3078b0905e489f698a11b7a6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45f54ec8da1135cdbc2e11e8418d579') in 0.010967 seconds
+  Import took 0.014683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.780896 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab
+  artifactKey: Guid(26d069e6f78e6f8478e4dc0152bd6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab using Guid(26d069e6f78e6f8478e4dc0152bd6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1568409a31e8a172b782d83d21680bc') in 0.016344 seconds
+  Import took 0.020127 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000957 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 1.649600 ms (FindLiveObjects: 0.193000 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.394200 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.824 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1891.
+Total: 1.833100 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.051800 ms MarkObjects: 1.546900 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 2.832000 ms (FindLiveObjects: 0.209200 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.546700 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

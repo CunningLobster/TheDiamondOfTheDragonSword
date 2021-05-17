@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 315922502540285959, guid: 84ed98e008d241f408e1003bba9f1bb5, type: 3}
+      propertyPath: impactEffect
+      value: 
+      objectReference: {fileID: 9211177400764359297, guid: 7c41b40fe340a8647ac62c4984c421da, type: 3}
     - target: {fileID: 2953411879024586287, guid: 84ed98e008d241f408e1003bba9f1bb5, type: 3}
       propertyPath: m_RootOrder
       value: 0

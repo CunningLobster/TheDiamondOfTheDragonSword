@@ -204,6 +204,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7f49c6920d49ba468b083941d79f2c0, type: 3}
+--- !u!1 &3879471538061084722 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1659504181823486, guid: c7f49c6920d49ba468b083941d79f2c0, type: 3}
+  m_PrefabInstance: {fileID: 3878517922525368268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3874119572941854584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4750687242688692, guid: c7f49c6920d49ba468b083941d79f2c0, type: 3}
@@ -220,6 +225,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arrow_Projectile
       objectReference: {fileID: 0}
+    - target: {fileID: 5958152515879386425, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
+      propertyPath: impactEffect
+      value: 
+      objectReference: {fileID: 9211177400764359297, guid: 7c41b40fe340a8647ac62c4984c421da, type: 3}
+    - target: {fileID: 5958152515879386425, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
+      propertyPath: destroyOnHit.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958152515879386425, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
+      propertyPath: destroyOnHit.Array.data[0]
+      value: 
+      objectReference: {fileID: 3879471538061084722}
     - target: {fileID: 9093151953186032401, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
       propertyPath: m_RootOrder
       value: 0

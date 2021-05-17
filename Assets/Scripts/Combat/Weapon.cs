@@ -35,14 +35,19 @@ namespace RPG.Combat
 
             if (weaponPrefab != null)
             {
-                Transform handTransform = GetTransform(rightHand, leftHand);
+                Transform handTransform = GetTransform(leftHand, rightHand);
                 GameObject weapon = Instantiate(weaponPrefab, handTransform);
                 weapon.name = weaponName;
             }
 
+            var overrideController = animator.runtimeAnimatorController as AnimatorOverrideController;
             if (animatorOverride != null)
             {
                 animator.runtimeAnimatorController = animatorOverride;
+            }
+            else if (overrideController != null)
+            {
+                animator.runtimeAnimatorController = overrideController.runtimeAnimatorController;
             }
         }
 
@@ -59,7 +64,7 @@ namespace RPG.Combat
             Destroy(oldWeapon.gameObject);
         }
 
-        private Transform GetTransform(Transform rightHand, Transform leftHand)
+        private Transform GetTransform(Transform leftHand, Transform rightHand)
         {
             Transform handTransform;
             if (isRightHanded) { handTransform = rightHand; }
