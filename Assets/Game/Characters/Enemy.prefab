@@ -44,7 +44,7 @@ PrefabInstance:
     - target: {fileID: 872178107, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 11400000, guid: 85ca6c6d1452f2a498601f0acf33dd62, type: 2}
+      objectReference: {fileID: 11400000, guid: a3b495137f7ac3f4dbfde8ddcd91e152, type: 2}
     - target: {fileID: 872178107, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
       propertyPath: handTransform
       value: 
@@ -76,6 +76,10 @@ PrefabInstance:
     - target: {fileID: 2649943600381593304, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
       propertyPath: healthPoints
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6118702495714464592, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
+      propertyPath: characterClass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7058735400751965249, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
       propertyPath: m_IsActive

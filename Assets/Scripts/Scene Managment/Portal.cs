@@ -38,6 +38,8 @@ namespace RPG.SceneManagement
             Fader fader = FindObjectOfType<Fader>();
             SavingWrapper savingWrapper = FindObjectOfType<SavingWrapper>();
 
+            savingWrapper.Save();
+
             yield return fader.FadeOut(fadeOutTime);
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
             savingWrapper.Load();
