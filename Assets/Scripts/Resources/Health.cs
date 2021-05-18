@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using RPG.Saving;
+using RPG.Core;
+using RPG.Stats;
 
-namespace RPG.Core
+namespace RPG.Resources
 {
     public class Health : MonoBehaviour, ISaveable
     {
@@ -11,6 +13,17 @@ namespace RPG.Core
         bool isDead = false;
 
         public bool IsDead{get{ return isDead; } }
+
+        private void Start()
+        {
+            healthPoints = GetComponent<BaseStats>().GetHealth();
+        }
+
+        public float GetHealthPercent()
+        {
+            float healthPercent = (healthPoints / GetComponent<BaseStats>().GetHealth()) * 100;
+            return Mathf.RoundToInt(healthPercent);
+        }
 
         public void TakeDamage(float damage)
         {

@@ -78,6 +78,10 @@ PrefabInstance:
       value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6118702495714464592, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
+      propertyPath: progression
+      value: 
+      objectReference: {fileID: 11400000, guid: 35693b7beba523f4da84dab70b86d13e, type: 2}
+    - target: {fileID: 6118702495714464592, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
       propertyPath: characterClass
       value: 1
       objectReference: {fileID: 0}

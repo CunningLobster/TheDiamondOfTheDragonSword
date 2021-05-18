@@ -191,3 +191,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingLevel: 1
   characterClass: 0
+  progression: {fileID: 11400000, guid: 35693b7beba523f4da84dab70b86d13e, type: 2}
