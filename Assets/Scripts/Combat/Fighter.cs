@@ -44,6 +44,11 @@ namespace RPG.Combat
             }
         }
 
+        public Health GetTarget()
+        {
+            return target;
+        }
+
         private void AttackBehaviour()
         {
             transform.LookAt(target.transform);
@@ -97,11 +102,11 @@ namespace RPG.Combat
             if (target == null) { return; }
             if (currentWeapon.HasProjectile())
             {
-                currentWeapon.LaunchProjectile(leftHandTransform, rightHandTransform, target);
+                currentWeapon.LaunchProjectile(leftHandTransform, rightHandTransform, target, gameObject);
             }
             else 
             {
-                target.TakeDamage(currentWeapon.GetWeaponDamage());
+                target.TakeDamage(gameObject, currentWeapon.GetWeaponDamage());
             }
         }
 

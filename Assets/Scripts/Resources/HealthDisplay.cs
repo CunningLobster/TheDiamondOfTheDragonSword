@@ -2,27 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using RPG.Resources;
+using System;
 
-public class HealthDisplay : MonoBehaviour
+namespace RPG.Resources
 {
-    TMP_Text health;
-    void Awake()
+    public class HealthDisplay : MonoBehaviour
     {
-        health = GetComponent<TMP_Text>();
-        DisplayHealthPercent();
+        TMP_Text health;
+        void Awake()
+        {
+            health = GetComponent<TMP_Text>();
+        }
+
+
+        void Update()
+        {
+            DisplayHealthPercent();
+        }
+
+        private void DisplayHealthPercent()
+        {
+            Health playerHealthComponent = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
+            health.text = String.Format("{0:f1}%", playerHealthComponent.GetHealthPercent());
+        }
+
     }
-
-
-    void Update()
-    {
-        DisplayHealthPercent();
-    }
-
-    private void DisplayHealthPercent()
-    {
-        Health playerHealthComponent = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
-        health.text = playerHealthComponent.GetHealthPercent().ToString() + "%";
-    }
-
 }
+

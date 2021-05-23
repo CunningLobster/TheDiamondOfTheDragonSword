@@ -1,0 +1,192 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'ru' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Projects\UnityProjects\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Projects/UnityProjects/TheDiamondOfTheDragonSword
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56760
+Successfully changed project path to: D:/Projects/UnityProjects/TheDiamondOfTheDragonSword
+D:/Projects/UnityProjects/TheDiamondOfTheDragonSword
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path D:/Projects/UnityProjects/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/UnityProjects/TheDiamondOfTheDragonSword/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.15003.1004
+Initialize mono
+Mono path[0] = 'D:/Projects/UnityProjects/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Projects/UnityProjects/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Projects/UnityProjects/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Projects/UnityProjects/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001375 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.865 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.856 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1305 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.0 MB.
+System memory in use after: 92.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1783.
+Total: 2.037800 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.043600 ms MarkObjects: 1.665000 ms  DeleteObjects: 0.130100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Stats/BaseStats.cs
+  artifactKey: Guid(396e6eaaeea972e47bcecc3a25387bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Stats/BaseStats.cs using Guid(396e6eaaeea972e47bcecc3a25387bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aedfe05bf4c42c753e4db698d860f2') in 0.043471 seconds
+  Import took 0.057253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 579.431066 seconds.
+  path: Assets/Game/Core
+  artifactKey: Guid(7ecdf55496117c242b34bdece641a126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core using Guid(7ecdf55496117c242b34bdece641a126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679384fae5b406442c1f5bff9f310fcf') in 0.001845 seconds
+  Import took 0.032249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038703 seconds.
+  path: Assets/Game/Core/Core.prefab
+  artifactKey: Guid(f2ea91d66ae23924aa76308e0015b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Core.prefab using Guid(f2ea91d66ae23924aa76308e0015b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359370ead840cf78c9b93cac8575d8ad') in 0.248614 seconds
+  Import took 0.252167 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.0 MB.
+System memory in use after: 108.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1796.
+Total: 2.023000 ms (FindLiveObjects: 0.244800 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.627100 ms  DeleteObjects: 0.101700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1733.378137 seconds.
+  path: Assets/Game/Core/Progression.asset
+  artifactKey: Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Progression.asset using Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee137fe1d40663d4981452e1f7752ae') in 0.013973 seconds
+  Import took 0.017021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007223 seconds.
+  path: Assets/Game/Core/Progression.asset
+  artifactKey: Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Progression.asset using Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee137fe1d40663d4981452e1f7752ae') in 0.002434 seconds
+  Import took 0.004780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.950037 seconds.
+  path: Assets/Game/Core/Progression.asset
+  artifactKey: Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Progression.asset using Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb39ae5666d74dfad96bbe26a822dfed') in 0.002181 seconds
+  Import took 0.004919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019204 seconds.
+  path: Assets/Game/Core/Progression.asset
+  artifactKey: Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Progression.asset using Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb39ae5666d74dfad96bbe26a822dfed') in 0.002116 seconds
+  Import took 0.004360 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.0 MB.
+System memory in use after: 108.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1799.
+Total: 1.896900 ms (FindLiveObjects: 0.239400 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.510900 ms  DeleteObjects: 0.099600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 375.901027 seconds.
+  path: Assets/Game/Core/Progression.asset
+  artifactKey: Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Progression.asset using Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b14587875c9f9919f72ce63e95d82b9') in 0.010874 seconds
+  Import took 0.017780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006947 seconds.
+  path: Assets/Game/Core/Progression.asset
+  artifactKey: Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Progression.asset using Guid(35693b7beba523f4da84dab70b86d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b14587875c9f9919f72ce63e95d82b9') in 0.002315 seconds
+  Import took 0.004734 seconds .
+
