@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,24 +10,13 @@ namespace RPG.Stats
     public class Progression : ScriptableObject
     {
         [SerializeField] ProgressionCharacterClass[] characterClasses;
-
-        public float GetHealth(CharacterClass characterClass, int level)
-        {
-            foreach (ProgressionCharacterClass progressionClass in characterClasses)
-            {
-                if (progressionClass.characterClass == characterClass)
-                {
-                   // return progressionClass.health[level - 1];
-                }
-            }
-            return 50;
-        }
+        Dictionary<CharacterClass, Dictionary<Stat, float[]>> lookupTable = null;
 
         [System.Serializable]
         class ProgressionCharacterClass
         {
             public CharacterClass characterClass;
-            public ProgressionStat stats;
+            public ProgressionStat[] stats;
         }
 
         [System.Serializable]
@@ -34,6 +24,36 @@ namespace RPG.Stats
         {
             public Stat stat;
             public float[] levels;
+        }
+
+        public float GetStat(Stat stat, CharacterClass characterClass, int level)
+        {
+            BuildLookup();
+
+            float[] levels = lookupTable[characterClass][stat];
+
+            if (levels.Length < level)
+            {
+                return 0;
+            }
+
+            return levels[level - 1];
+        }
+
+        private void BuildLookup()
+        {
+            if (lookupTable != null) { return; }
+
+            lookupTable = new Dictionary<CharacterClass, Dictionary<Stat, float[]>>();
+            foreach (ProgressionCharacterClass progressionClass in characterClasses)
+            {
+                var lookupStat = new Dictionary<Stat, float[]>();
+                foreach (ProgressionStat progressionStat in progressionClass.stats)
+                {
+                    lookupStat[progressionStat.stat] = progressionStat.levels;
+                }
+                lookupTable[progressionClass.characterClass] = lookupStat;
+            }
         }
     }
 }

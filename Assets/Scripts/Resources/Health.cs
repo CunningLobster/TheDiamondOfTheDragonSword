@@ -5,6 +5,7 @@ using RPG.Saving;
 using RPG.Core;
 using RPG.Stats;
 using System;
+using UnityEngine.AI;
 
 namespace RPG.Resources
 {
@@ -17,12 +18,12 @@ namespace RPG.Resources
 
         private void Start()
         {
-            healthPoints = GetComponent<BaseStats>().GetHealth();
+            healthPoints = GetComponent<BaseStats>().GetStat(Stat.Health);
         }
 
         public float GetHealthPercent()
         {
-            float healthPercent = (healthPoints / GetComponent<BaseStats>().GetHealth()) * 100;
+            float healthPercent = (healthPoints / GetComponent<BaseStats>().GetStat(Stat.Health)) * 100;
             return healthPercent;
         }
 
@@ -40,10 +41,10 @@ namespace RPG.Resources
 
         private void Die()
         {
-            if (isDead) { return; }            
+            if (isDead) { return; }
 
-            GetComponent<Animator>().SetTrigger("die");
             isDead = true;
+            GetComponent<Animator>().SetTrigger("die");
             GetComponent<ActionScheduler>().CancelCurrentAction();
         }
 
@@ -55,7 +56,7 @@ namespace RPG.Resources
                 return;
             }
 
-            experience.GainExperience(GetComponent<BaseStats>().GetExperienceReward());
+            experience.GainExperience(GetComponent<BaseStats>().GetStat(Stat.ExperienceReward));
         }
 
         public object CaptureState()
@@ -65,9 +66,8 @@ namespace RPG.Resources
 
         public void RestoreState(object state)
         {
-            float currentHealthPoints = (float)state;
-            healthPoints = currentHealthPoints;
-            if (currentHealthPoints == 0)
+            healthPoints = (float)state;
+            if (healthPoints <= 0)
             {
                 Die();
             }

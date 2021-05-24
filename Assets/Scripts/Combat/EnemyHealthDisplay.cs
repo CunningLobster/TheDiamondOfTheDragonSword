@@ -26,7 +26,6 @@ namespace RPG.Combat
             Health targetHealthComponent = GameObject.FindGameObjectWithTag("Player").GetComponent<Fighter>().GetTarget();
             if (targetHealthComponent != null)
             {
-                Debug.Log("target is found");
                 health.text = String.Format("{0:f1}%", targetHealthComponent.GetHealthPercent());
             }
             else { health.text = "N/A"; }
