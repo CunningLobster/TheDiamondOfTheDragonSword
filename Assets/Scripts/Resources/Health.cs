@@ -5,20 +5,22 @@ using RPG.Saving;
 using RPG.Core;
 using RPG.Stats;
 using System;
-using UnityEngine.AI;
 
 namespace RPG.Resources
 {
     public class Health : MonoBehaviour, ISaveable
     {
-        [SerializeField] float healthPoints = 100f;
+        [SerializeField]float healthPoints = -1f;
         bool isDead = false;
 
         public bool IsDead{get{ return isDead; } }
 
         private void Start()
         {
-            healthPoints = GetComponent<BaseStats>().GetStat(Stat.Health);
+            if (healthPoints < 0)
+            {
+                healthPoints = GetComponent<BaseStats>().GetStat(Stat.Health);
+            }
         }
 
         public float GetHealthPercent()
