@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +11,9 @@ namespace RPG.Stats
         [SerializeField] int startingLevel = 1;
         [SerializeField] CharacterClass characterClass;
         [SerializeField] Progression progression;
+        [SerializeField] ParticleSystem levelUpEffect = null;
 
+        public event Action onLevelUp;
         int currentLevel = 0;
 
         private void Start()
@@ -29,13 +32,33 @@ namespace RPG.Stats
             if (newLevel > currentLevel)
             {
                 currentLevel = newLevel;
+                onLevelUp();
+                PlayLevelUpEffect();
                 print("Levelled up!");
             }
         }
 
+        private void PlayLevelUpEffect()
+        {
+            Instantiate(levelUpEffect, GameObject.FindGameObjectWithTag("Player").transform);
+        }
+
         public float GetStat(Stat stat)
         {
-            return progression.GetStat(stat ,characterClass, CalculateLevel());
+            return progression.GetStat(stat ,characterClass, CalculateLevel()) + GetAdditiveModifier(stat);
+        }
+
+        private float GetAdditiveModifier(Stat stat)
+        {
+            float total = 0;
+            foreach (IModifierProvider provider in GetComponents<IModifierProvider>())
+            {
+                foreach (float modifier in provider.GetAdditiveModifier(stat))
+                {
+                    total += modifier;
+                }
+            }
+            return total;
         }
 
         public int GetLevel()

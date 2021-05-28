@@ -23,7 +23,7 @@ namespace RPG.Resources
         private void DisplayHealthPercent()
         {
             Health playerHealthComponent = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
-            health.text = String.Format("{0:f1}%", playerHealthComponent.GetHealthPercent());
+            health.text = String.Format("{0:0}/{1:0}", playerHealthComponent.GetHealth(), playerHealthComponent.GetMaximumHealth());
         }
 
     }
