@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2133793514}
   - component: {fileID: 872178105}
   - component: {fileID: 2538279069648690295}
-  - component: {fileID: 2649943600381593304}
   - component: {fileID: 2133793513}
   - component: {fileID: 872178107}
+  - component: {fileID: 2649943600381593304}
   - component: {fileID: 872178108}
   - component: {fileID: 7345601782583530819}
   - component: {fileID: 8233798331055827389}
@@ -95,19 +95,6 @@ CapsuleCollider:
   m_Height: 1.9
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &2649943600381593304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9171410243173830044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9523fa76b4b20f47a2013f2e352a275, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPoints: 100
 --- !u!114 &2133793513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +123,20 @@ MonoBehaviour:
   rightHandTransform: {fileID: 0}
   leftHandTransform: {fileID: 0}
   defaultWeapon: {fileID: 0}
+--- !u!114 &2649943600381593304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9171410243173830044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9523fa76b4b20f47a2013f2e352a275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPoints: 100
+  regenerationPersantage: 70
 --- !u!114 &872178108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,3 +193,5 @@ MonoBehaviour:
   startingLevel: 1
   characterClass: 0
   progression: {fileID: 11400000, guid: 35693b7beba523f4da84dab70b86d13e, type: 2}
+  levelUpEffect: {fileID: 0}
+  shouldUseModifiers: 0

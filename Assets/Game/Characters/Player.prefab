@@ -155,6 +155,10 @@ PrefabInstance:
       propertyPath: levelUpEffect
       value: 
       objectReference: {fileID: 6695293686893983917, guid: 5c947645d6574764cbd7e4196557fdf0, type: 3}
+    - target: {fileID: 6118702495714464592, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
+      propertyPath: shouldUseModifiers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7345601782583530819, guid: a4839624b9b6191448ca8d7c5cd64abd, type: 3}
       propertyPath: uniqueIdentifier
       value: player

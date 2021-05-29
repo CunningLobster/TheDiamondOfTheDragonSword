@@ -30,11 +30,11 @@ MonoBehaviour:
       - 240
     - stat: 3
       levels:
-      - 30
-      - 60
-      - 120
-      - 240
-      - 480
+      - 5
+      - 8
+      - 12
+      - 16
+      - 20
   - characterClass: 1
     stats:
     - stat: 0

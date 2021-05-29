@@ -64,7 +64,6 @@ namespace RPG.Movement
             SerializableVector3 position = (SerializableVector3)state;
             GetComponent<NavMeshAgent>().enabled = false;
             transform.position =  position.ToVector();
-
             GetComponent<NavMeshAgent>().enabled = true;
             GetComponent<ActionScheduler>().CancelCurrentAction();
         }
