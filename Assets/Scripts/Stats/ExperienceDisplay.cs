@@ -8,7 +8,7 @@ namespace RPG.Stats
     {
         TMP_Text experience;
 
-        private void Start()
+        private void Awake()
         {
             experience = GetComponent<TMP_Text>();
         }

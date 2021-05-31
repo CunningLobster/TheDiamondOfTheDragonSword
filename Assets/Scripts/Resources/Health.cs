@@ -14,15 +14,31 @@ namespace RPG.Resources
         [SerializeField]float regenerationPersantage = 70f;
         bool isDead = false;
 
+        BaseStats baseStats;
+
         public bool IsDead{get{ return isDead; } }
+
+        private void Awake()
+        {
+            baseStats = GetComponent<BaseStats>();
+        }
 
         private void Start()
         {
-            GetComponent<BaseStats>().onLevelUp += RegenerateHealth;
             if (healthPoints < 0)
             {
                 healthPoints = GetComponent<BaseStats>().GetStat(Stat.Health);
             }
+        }
+
+        private void OnEnable()
+        {
+            baseStats.onLevelUp += RegenerateHealth;
+        }
+
+        private void OnDisable()
+        {
+            baseStats.onLevelUp -= RegenerateHealth;
         }
 
         private void RegenerateHealth()
