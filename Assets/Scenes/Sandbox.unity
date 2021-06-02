@@ -5858,6 +5858,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5417616635606969885, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.9917984
+      objectReference: {fileID: 0}
+    - target: {fileID: 5417616635606969885, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.9375458
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691614323994136357, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
+      propertyPath: cursorMappings.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691614323994136357, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
+      propertyPath: cursorMappings.Array.data[4].type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691614323994136357, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
+      propertyPath: cursorMappings.Array.data[4].texture
+      value: 
+      objectReference: {fileID: 2800000, guid: f8c873f1e53e83f4aabf342d6be1dfc3, type: 3}
     - target: {fileID: 5780324107481609826, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
       propertyPath: m_Name
       value: Core
@@ -5905,6 +5925,14 @@ PrefabInstance:
     - target: {fileID: 5780324107481609827, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914767790478196650, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.9917984
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914767790478196650, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.9375458
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2ea91d66ae23924aa76308e0015b3dd, type: 3}
