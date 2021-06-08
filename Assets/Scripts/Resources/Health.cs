@@ -6,6 +6,7 @@ using RPG.Core;
 using RPG.Stats;
 using System;
 using GameDevTV.Utils;
+using UnityEngine.Events;
 
 namespace RPG.Resources
 {
@@ -13,9 +14,11 @@ namespace RPG.Resources
     {
         LazyValue<float> healthPoints;
         [SerializeField]float regenerationPersantage = 70f;
+        [SerializeField] UnityEvent takeDamage;
         bool isDead = false;
 
         BaseStats baseStats;
+        
 
         public bool IsDead{get{ return isDead; } }
 
@@ -32,10 +35,6 @@ namespace RPG.Resources
 
         private void Start()
         {
-            //if (healthPoints < 0)
-            //{
-            //    healthPoints = GetComponent<BaseStats>().GetStat(Stat.Health);
-            //}
             healthPoints.ForceInit();
         }
 
@@ -81,6 +80,10 @@ namespace RPG.Resources
             {
                 Die();
                 AwardExperience(instigator);
+            }
+            else 
+            {
+                takeDamage.Invoke();
             }
         }
 

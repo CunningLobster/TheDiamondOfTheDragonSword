@@ -36,7 +36,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 373038486076175508}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -135,8 +136,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9523fa76b4b20f47a2013f2e352a275, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 100
   regenerationPersantage: 70
+  takeDamage:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 389687547881241874}
+        m_TargetAssemblyTypeName: RPG.UI.DamageText.DamageTextSpawner, Assembly-CSharp
+        m_MethodName: Spawn
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 10
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &872178108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,3 +210,76 @@ MonoBehaviour:
   progression: {fileID: 11400000, guid: 35693b7beba523f4da84dab70b86d13e, type: 2}
   levelUpEffect: {fileID: 0}
   shouldUseModifiers: 0
+--- !u!1001 &1859849733875323683
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7619175320123394028}
+    m_Modifications:
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442167257704433073, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+      propertyPath: m_Name
+      value: Damage Text Spawner
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+--- !u!4 &373038486076175508 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2081454660935280567, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+  m_PrefabInstance: {fileID: 1859849733875323683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &389687547881241874 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2064884727753797169, guid: ed83b8b1f5d2ff843b5f8ae6e76038a7, type: 3}
+  m_PrefabInstance: {fileID: 1859849733875323683}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325d2410160df6c48978f08222ee93be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

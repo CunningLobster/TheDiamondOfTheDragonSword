@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 8753904392070322560}
   - component: {fileID: 7914003158144527003}
   m_Layer: 0
-  m_Name: Health Percentage Value
+  m_Name: Health Value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1134,7 +1134,7 @@ GameObject:
   - component: {fileID: 5928489674585960497}
   - component: {fileID: 5252700529273210903}
   m_Layer: 0
-  m_Name: Enemy Health Percentage Value
+  m_Name: Enemy Health Value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
