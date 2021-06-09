@@ -8,13 +8,18 @@ using System;
 using GameDevTV.Utils;
 using UnityEngine.Events;
 
-namespace RPG.Resources
+namespace RPG.Attributes
 {
     public class Health : MonoBehaviour, ISaveable
     {
         LazyValue<float> healthPoints;
         [SerializeField]float regenerationPersantage = 70f;
-        [SerializeField] UnityEvent takeDamage;
+        [SerializeField] TakeDamageEvent takeDamage;
+
+        [System.Serializable]
+        public class TakeDamageEvent : UnityEvent<float>
+        { }
+
         bool isDead = false;
 
         BaseStats baseStats;
@@ -56,8 +61,12 @@ namespace RPG.Resources
 
         public float GetHealthPercent()
         {
-            float healthPercent = (healthPoints.value / GetComponent<BaseStats>().GetStat(Stat.Health)) * 100;
-            return healthPercent;
+            return GetHealthFraction() * 100;
+        }
+
+        public float GetHealthFraction()
+        {
+            return healthPoints.value / GetComponent<BaseStats>().GetStat(Stat.Health);
         }
 
         public float GetHealth()
@@ -83,7 +92,7 @@ namespace RPG.Resources
             }
             else 
             {
-                takeDamage.Invoke();
+                takeDamage.Invoke(damage);
             }
         }
 

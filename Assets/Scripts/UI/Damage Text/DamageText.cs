@@ -11,7 +11,7 @@ namespace RPG.UI.DamageText
 
         public void SetValue(float amount)
         {
-            damageText.text = string.Format("{0,0}", amount);
+            damageText.text = string.Format("{0:0}", amount);
         }
     }
 }
