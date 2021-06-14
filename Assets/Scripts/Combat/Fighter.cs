@@ -8,6 +8,7 @@ using RPG.Stats;
 using System.Collections.Generic;
 using GameDevTV.Utils;
 using System;
+using UnityEngine.Events;
 
 namespace RPG.Combat
 {
@@ -17,6 +18,7 @@ namespace RPG.Combat
         [SerializeField] Transform rightHandTransform = null;
         [SerializeField] Transform leftHandTransform = null;
         [SerializeField] Weapon defaultWeapon = null;
+        [SerializeField] UnityEvent onMeleeHit;
 
         float timeFromLastHit = Mathf.Infinity;
         Health target;
@@ -125,6 +127,7 @@ namespace RPG.Combat
             }
             else 
             {
+                onMeleeHit.Invoke();
                 target.TakeDamage(gameObject, damage);
             }
         }

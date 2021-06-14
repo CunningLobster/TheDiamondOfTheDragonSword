@@ -4958,6 +4958,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 618212639815049346, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
+      propertyPath: Priority
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 618212639815049346, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: da0093ebe4323b846a8f67e40229df09, type: 3}
     - target: {fileID: 1011960766536777689, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
       propertyPath: m_Name
       value: Fireball_Projectile
@@ -4969,6 +4977,10 @@ PrefabInstance:
     - target: {fileID: 1434211638374828519, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
       propertyPath: m_Center.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4533621279589100901, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5958152515879386425, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
       propertyPath: speed
@@ -4990,6 +5002,10 @@ PrefabInstance:
       propertyPath: destroyOnHit.Array.data[0]
       value: 
       objectReference: {fileID: 8599349358026413894}
+    - target: {fileID: 9027645328791166639, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: be04e3f4e348d08438b4ce2e92a586d2, type: 3}
     - target: {fileID: 9093151953186032401, guid: 7af5b83958e132143b52fddc36fd3635, type: 3}
       propertyPath: m_RootOrder
       value: 0
