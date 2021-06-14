@@ -7,7 +7,7 @@ namespace RPG.Core
     public class CameraFacing : MonoBehaviour
     {
 
-        void Update()
+        void LateUpdate()
         {
             transform.rotation = Camera.main.transform.rotation;
         }

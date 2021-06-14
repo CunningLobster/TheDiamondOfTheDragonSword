@@ -6,7 +6,7 @@ namespace RPG.SceneManagement
     public class Fader : MonoBehaviour
     {
         CanvasGroup canvasGroup;
-        Coroutine currentActiveFade;
+        Coroutine currentActiveFade = null;
 
         private void Awake()
         {
@@ -18,44 +18,33 @@ namespace RPG.SceneManagement
             canvasGroup.alpha = 1;
         }
 
-        public IEnumerator FadeOut(float time)
+        public Coroutine FadeOut(float time)
+        {
+            return Fade(1, time);
+        }
+
+        public Coroutine FadeIn(float time)
+        {
+            return Fade(0, time);
+        }
+
+        public Coroutine Fade(float target, float time)
         {
             if (currentActiveFade != null)
             {
-                currentActiveFade = null;
+                StopCoroutine(currentActiveFade);
             }
-            currentActiveFade = StartCoroutine(FadeOutRoutine(time));
-            yield return currentActiveFade;
+            currentActiveFade = StartCoroutine(FadeRoutine(target, time));
+            return currentActiveFade;
         }
 
-        private IEnumerator FadeOutRoutine(float time)
+        private IEnumerator FadeRoutine(float target, float time)
         {
-            while (canvasGroup.alpha < 1)
+            while (!Mathf.Approximately(canvasGroup.alpha, target))
             {
-                canvasGroup.alpha += (Time.deltaTime / time);
+                canvasGroup.alpha = Mathf.MoveTowards(canvasGroup.alpha, target, Time.deltaTime / time);
                 yield return null;
             }
-
-        }
-
-        public IEnumerator FadeIn(float time)
-        {
-            if (currentActiveFade != null)
-            {
-                currentActiveFade = null;
-            }
-            currentActiveFade = StartCoroutine(FadeInRoutine(time));
-            yield return currentActiveFade;
-        }
-
-        private IEnumerator FadeInRoutine(float time)
-        {
-            while (canvasGroup.alpha > 0)
-            {
-                canvasGroup.alpha -= (Time.deltaTime / time);
-                yield return null;
-            }
-
         }
     }
 }
