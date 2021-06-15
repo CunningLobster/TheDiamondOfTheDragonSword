@@ -15,6 +15,7 @@ namespace RPG.Control
         [Header("Attack Behaviour")]
         [SerializeField] float chaseDistance = 5f;
         [SerializeField] float suspicionTime = 5f;
+        [SerializeField] float aggroCooldown = 5f;
 
         [Header("Patrol Behaviour")]
         [SerializeField] PatrolPath patrolPath;
@@ -30,6 +31,7 @@ namespace RPG.Control
 
         float timeSinceLastSawPlayer = Mathf.Infinity;
         float timeSinceArrivedAtWaypoint = Mathf.Infinity;
+        float timeSinceAggrevated = Mathf.Infinity;
         int currentWaypointIndex = 0;
 
         LazyValue<Vector3> guardPosition;
@@ -44,11 +46,6 @@ namespace RPG.Control
             guardPosition = new LazyValue<Vector3>(GetGuardPosition);
         }
 
-        private Vector3 GetGuardPosition()
-        {
-            return transform.position;
-        }
-
         private void Start()
         {
             guardPosition.ForceInit();
@@ -58,7 +55,7 @@ namespace RPG.Control
         {
             if (health.IsDead) return;
 
-            if (InAttackDistance(player) && fighter.CanAttack(player))
+            if (IsAggrevated(player) && fighter.CanAttack(player))
             {
                 AttackBehaviour();
             }
@@ -74,10 +71,21 @@ namespace RPG.Control
             UpdateTimer();
         }
 
+        private Vector3 GetGuardPosition()
+        {
+            return transform.position;
+        }
+
+        private void Aggrevate()
+        {
+            timeSinceAggrevated = 0;
+        }
+
         private void UpdateTimer()
         {
             timeSinceLastSawPlayer += Time.deltaTime;
             timeSinceArrivedAtWaypoint += Time.deltaTime;
+            timeSinceAggrevated += Time.deltaTime;
         }
 
         private void PatrolBehaviour()
@@ -127,10 +135,10 @@ namespace RPG.Control
             fighter.Attack(player);
         }
 
-        private bool InAttackDistance(GameObject player)
+        private bool IsAggrevated(GameObject player)
         {
             float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
-            return distanceToPlayer < chaseDistance;
+            return distanceToPlayer < chaseDistance || timeSinceAggrevated < aggroCooldown;
         }
 
         private void OnDrawGizmosSelected()
