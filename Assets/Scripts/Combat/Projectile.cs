@@ -13,6 +13,7 @@ namespace RPG.Combat
         [SerializeField] bool isHoming = false;
         [SerializeField] GameObject impactEffect = null;
         [SerializeField] float lifeTime = 10f;
+        [SerializeField] float lifeAfterImpact = 2f;
         [SerializeField] GameObject[] destroyOnHit = null;
 
         [SerializeField] UnityEvent onProjectileHit;
@@ -75,7 +76,7 @@ namespace RPG.Combat
                 Destroy(projectile);
             }
 
-            Destroy(gameObject);
+            Destroy(gameObject, lifeAfterImpact);
         }
     }
 }
