@@ -15,11 +15,11 @@ C:/Yan/Unity/Projects/TheDiamondOfTheDragonSword
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49856
+64448
 Successfully changed project path to: C:/Yan/Unity/Projects/TheDiamondOfTheDragonSword
 C:/Yan/Unity/Projects/TheDiamondOfTheDragonSword
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.95 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 41.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Yan/Unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1084 +35,136 @@ Initialize mono
 Mono path[0] = 'C:/Yan/Unity/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Yan/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Yan/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Yan/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002875 seconds.
+Registered in 0.001792 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.763 seconds
+- Completed reload, in  1.133 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001094 seconds.
+Registered in 0.000683 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
+- Completed reload, in  1.180 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1318 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.7 MB.
-System memory in use after: 80.8 MB.
+System memory in use before: 81.7 MB.
+System memory in use after: 81.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1789.
-Total: 3.002300 ms (FindLiveObjects: 1.381000 ms CreateObjectMapping: 0.169600 ms MarkObjects: 1.351600 ms  DeleteObjects: 0.098300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Asset Packs/MedievalPack
-  artifactKey: Guid(caf9e84c705041e4984989d74479cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack using Guid(caf9e84c705041e4984989d74479cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7ae88fb83434705bf2ee3a51d7864e') in 0.009541 seconds
-  Import took 0.012179 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1792.
+Total: 1.867700 ms (FindLiveObjects: 0.194100 ms CreateObjectMapping: 0.072800 ms MarkObjects: 1.479400 ms  DeleteObjects: 0.120500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.940602 seconds.
-  path: Assets/Scenes/Sandbox Terrain.asset
-  artifactKey: Guid(e349d7a8bc18f7e4585eb980c21c073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox Terrain.asset using Guid(e349d7a8bc18f7e4585eb980c21c073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '51201ed2679972460877e8dd85c299e1') in 0.094086 seconds
-  Import took 0.096893 seconds .
+  path: Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_A_Small_Fire.prefab
+  artifactKey: Guid(5120c0b529bdd489e955a6f8f3d28426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_A_Small_Fire.prefab using Guid(5120c0b529bdd489e955a6f8f3d28426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f90c17517638ca0b26160d4d4c7820d') in 0.159606 seconds
+  Import took 0.164086 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Scenes/TerrainData_8b3c95aa-e11b-4b5c-8d32-d152ba7022a5.asset
-  artifactKey: Guid(caadf61d110014d44b802831bdec6daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_8b3c95aa-e11b-4b5c-8d32-d152ba7022a5.asset using Guid(caadf61d110014d44b802831bdec6daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f9985723b5adfe5596643632a72e6f') in 0.071192 seconds
-  Import took 0.073739 seconds .
+  Time since last request: 0.000399 seconds.
+  path: Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Fire_Small_FX.prefab
+  artifactKey: Guid(1ccaecc0d7c334429b161837dada6bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Fire_Small_FX.prefab using Guid(1ccaecc0d7c334429b161837dada6bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80c1af71df47933265692cc22b78d18') in 0.011504 seconds
+  Import took 0.016174 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Scenes/TerrainData_197e7e5b-e6e0-40c1-9d33-b02d57998d58.asset
-  artifactKey: Guid(b7f6d17b981cffb4290eea67e02c535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_197e7e5b-e6e0-40c1-9d33-b02d57998d58.asset using Guid(b7f6d17b981cffb4290eea67e02c535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053053e72b49f16cba549c8d2fb10a7c') in 0.035534 seconds
-  Import took 0.039083 seconds .
+  Time since last request: 0.000401 seconds.
+  path: Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_C_Big_Fire.prefab
+  artifactKey: Guid(8126aaaf537b441af847b947a9ca4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_C_Big_Fire.prefab using Guid(8126aaaf537b441af847b947a9ca4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a13164399dba0774437c8e8393b7c2') in 0.025402 seconds
+  Import took 0.029704 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Scenes/TerrainData_18e2366e-4b62-4a9e-b082-6b93777fe119.asset
-  artifactKey: Guid(73389544ff6cd3542bdb90fe375539d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_18e2366e-4b62-4a9e-b082-6b93777fe119.asset using Guid(73389544ff6cd3542bdb90fe375539d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16661e6f659ae7b15d5c62bd6a892760') in 0.029567 seconds
-  Import took 0.034521 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Fire_Big_FX.prefab
+  artifactKey: Guid(adb8d0acfdec64c3fab86a8ec1fb132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Fire_Big_FX.prefab using Guid(adb8d0acfdec64c3fab86a8ec1fb132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73500bed57e1b135187609f492aef6b') in 0.012051 seconds
+  Import took 0.016711 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/Scenes/TerrainData_c39dccad-3c5b-40f7-9f6e-2a7bfd2d1916.asset
-  artifactKey: Guid(28377fcfa026c33439d474e6c1965a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_c39dccad-3c5b-40f7-9f6e-2a7bfd2d1916.asset using Guid(28377fcfa026c33439d474e6c1965a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9189a60e753ce7b494b3119ba7aac9b6') in 0.031367 seconds
-  Import took 0.035417 seconds .
+  Time since last request: 0.000345 seconds.
+  path: Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_A_Big_Fire.prefab
+  artifactKey: Guid(0370bcf47e9f8492cad0d19470ca3996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_A_Big_Fire.prefab using Guid(0370bcf47e9f8492cad0d19470ca3996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaec0c08dd0265397ef562aa23b54f46') in 0.027017 seconds
+  Import took 0.031674 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Scenes/TerrainData_f15d3091-af45-4255-81f2-238990bd5017.asset
-  artifactKey: Guid(4426ec05189e57746a20ef94fb03684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_f15d3091-af45-4255-81f2-238990bd5017.asset using Guid(4426ec05189e57746a20ef94fb03684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfb47b2d1a90b0a9607578375ef6883') in 0.032523 seconds
-  Import took 0.035584 seconds .
+  Time since last request: 0.000347 seconds.
+  path: Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_D_to_Cook.prefab
+  artifactKey: Guid(2e083ce79624a4fe09eb5cef9aed79ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_D_to_Cook.prefab using Guid(2e083ce79624a4fe09eb5cef9aed79ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd281a2f3cd56937f821bdf601273a76a') in 0.024937 seconds
+  Import took 0.030749 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Scenes/TerrainData_7b0cf982-0083-477c-9691-787d0f9f7188.asset
-  artifactKey: Guid(2cc9f65846cfde44a9c236604adfc8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_7b0cf982-0083-477c-9691-787d0f9f7188.asset using Guid(2cc9f65846cfde44a9c236604adfc8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '72f316cee333697f415150210368c403') in 0.025604 seconds
-  Import took 0.028637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Scenes/TerrainData_a14dbc16-1ef0-444a-b12f-6b9368d79a61.asset
-  artifactKey: Guid(679246a0e7777a643b98a205f3b20cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_a14dbc16-1ef0-444a-b12f-6b9368d79a61.asset using Guid(679246a0e7777a643b98a205f3b20cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57eb69d906585f41312ff97664866013') in 0.029918 seconds
-  Import took 0.033898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Scenes/TerrainData_909eec39-1053-4596-81bf-1849c9066576.asset
-  artifactKey: Guid(a3f843715e2a74745889bc317b67bb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_909eec39-1053-4596-81bf-1849c9066576.asset using Guid(a3f843715e2a74745889bc317b67bb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5719eb6622cf8ff58076e4da40d2d950') in 0.024365 seconds
-  Import took 0.028693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000718 seconds.
-  path: Assets/Scenes/TerrainData_528b60c7-e85d-4ea0-96d0-79eca983d167.asset
-  artifactKey: Guid(09912d645aa29b349bbcd73898e058b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_528b60c7-e85d-4ea0-96d0-79eca983d167.asset using Guid(09912d645aa29b349bbcd73898e058b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565dcef047a80cfcbe5985f96136b7f6') in 0.025275 seconds
-  Import took 0.028573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Scenes/TerrainData_e958e6f8-3689-4b22-8050-b199d3096ce9.asset
-  artifactKey: Guid(78eb2ca7d0e89924ca5d614fe88a913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_e958e6f8-3689-4b22-8050-b199d3096ce9.asset using Guid(78eb2ca7d0e89924ca5d614fe88a913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '2710a76ecf5dad94f7366bc3e42fc591') in 0.028692 seconds
-  Import took 0.031590 seconds .
+  Time since last request: 0.000306 seconds.
+  path: Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_B_Small_Fire.prefab
+  artifactKey: Guid(8c24f4efc20ae488386410c07ba7ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_B_Small_Fire.prefab using Guid(8c24f4efc20ae488386410c07ba7ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2da5c99f5862657b149724d54a628f') in 0.022631 seconds
+  Import took 0.026323 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000280 seconds.
-  path: Assets/Scenes/TerrainData_d9e7520a-4ef1-4fce-a5f5-91b88791cf24.asset
-  artifactKey: Guid(cfdfdd83e88f8ed41a3fe77349f054bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_d9e7520a-4ef1-4fce-a5f5-91b88791cf24.asset using Guid(cfdfdd83e88f8ed41a3fe77349f054bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: 'ba764b291b336e3515d1b8b20132f015') in 0.028634 seconds
-  Import took 0.031558 seconds .
+  path: Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_C_Small_Fire.prefab
+  artifactKey: Guid(bacc70b09c9614d89b194c1335f0f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_C_Small_Fire.prefab using Guid(bacc70b09c9614d89b194c1335f0f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618cab7ce513e366da072ebc8b9a8adb') in 0.029754 seconds
+  Import took 0.033670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Scenes/TerrainData_4b0e8353-341a-44b4-91cb-621037a49da2.asset
-  artifactKey: Guid(7b44aab4306bdd44ea967e5c5a130c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData_4b0e8353-341a-44b4-91cb-621037a49da2.asset using Guid(7b44aab4306bdd44ea967e5c5a130c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a20c9e1c9374905c338036f5f43a87') in 0.027477 seconds
-  Import took 0.031855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.679916 seconds.
-  path: Assets/Scenes/Sandbox 2.unity
-  artifactKey: Guid(93f5b0e78b3c56340abd43da917a261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox 2.unity using Guid(93f5b0e78b3c56340abd43da917a261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee27707723fc0406bbce6896dc087e3') in 0.012241 seconds
-  Import took 0.015151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001241 seconds.
-  path: Assets/Scenes/Sandbox 2.unity
-  artifactKey: Guid(93f5b0e78b3c56340abd43da917a261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox 2.unity using Guid(93f5b0e78b3c56340abd43da917a261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee27707723fc0406bbce6896dc087e3') in 0.003303 seconds
-  Import took 0.005712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.621022 seconds.
-  path: Assets/Sandbox2 terrain.asset
-  artifactKey: Guid(67f6cf4ceaf818548aa687c4f084d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sandbox2 terrain.asset using Guid(67f6cf4ceaf818548aa687c4f084d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: 'c48766353fc747b382f0ea697dc5032d') in 0.049167 seconds
-  Import took 0.052550 seconds .
+  Time since last request: 0.000296 seconds.
+  path: Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_B_Big_Fire.prefab
+  artifactKey: Guid(b4e05b86688c5493db1dc78b2b6f3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_B_Big_Fire.prefab using Guid(b4e05b86688c5493db1dc78b2b6f3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23be72e825b36d19151e2f851fa31001') in 0.027033 seconds
+  Import took 0.031454 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000956 seconds.
+Registered in 0.001504 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
+- Completed reload, in  0.717 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1297 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.8 MB.
+System memory in use before: 83.6 MB.
+System memory in use after: 83.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1795.
-Total: 1.976400 ms (FindLiveObjects: 0.172000 ms CreateObjectMapping: 0.050100 ms MarkObjects: 1.695500 ms  DeleteObjects: 0.057500 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1803.
+Total: 1.897900 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.047800 ms MarkObjects: 1.585800 ms  DeleteObjects: 0.058500 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 99.199687 seconds.
-  path: Assets/Sandbox2 Terrain.asset
-  artifactKey: Guid(67f6cf4ceaf818548aa687c4f084d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sandbox2 Terrain.asset using Guid(67f6cf4ceaf818548aa687c4f084d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '5228f0cfdae63da7e7bcad8960a6f7cf') in 0.053116 seconds
-  Import took 0.056078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.112288 seconds.
-  path: Assets/Scenes/Sandbox.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ed8225a70b3478d3ca53a983bcde8a') in 0.009421 seconds
-  Import took 0.013663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.372535 seconds.
-  path: Assets/Scenes/TerrainData
-  artifactKey: Guid(af93e53e8a1c226428621d698eeadd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TerrainData using Guid(af93e53e8a1c226428621d698eeadd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c81a40c11733b27c1a75f7972b8a349') in 0.007975 seconds
-  Import took 0.012113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.305969 seconds.
-  path: Assets/Scenes/Terrain Data
-  artifactKey: Guid(af93e53e8a1c226428621d698eeadd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain Data using Guid(af93e53e8a1c226428621d698eeadd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2eceee35b8f8f9c74301c6bdfb1f69') in 0.007669 seconds
-  Import took 0.011040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.792574 seconds.
-  path: Assets/Scenes/Terrain Data/Sandbox Terrain Left.asset
-  artifactKey: Guid(2cc9f65846cfde44a9c236604adfc8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain Data/Sandbox Terrain Left.asset using Guid(2cc9f65846cfde44a9c236604adfc8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '275ead4355c49e1711785ac5e231df56') in 0.061068 seconds
-  Import took 0.064217 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000751 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.735 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1798.
-Total: 1.847600 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.619200 ms  DeleteObjects: 0.013000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.788301 seconds.
-  path: Assets/Scenes/Terrain Data/Sandbox Terrain North.asset
-  artifactKey: Guid(cfdfdd83e88f8ed41a3fe77349f054bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain Data/Sandbox Terrain North.asset using Guid(cfdfdd83e88f8ed41a3fe77349f054bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: 'fa57ad2205d53c21178c7c553ec8eb2b') in 0.046795 seconds
-  Import took 0.051657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.303446 seconds.
-  path: Assets/Scenes/Terrain Data/Sandbox Terrain East.asset
-  artifactKey: Guid(78eb2ca7d0e89924ca5d614fe88a913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain Data/Sandbox Terrain East.asset using Guid(78eb2ca7d0e89924ca5d614fe88a913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '8e94d46d5d05d5229d902be207d044fd') in 0.067047 seconds
-  Import took 0.070278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.670383 seconds.
-  path: Assets/Scenes/Terrain Data/Sandbox Terrains
-  artifactKey: Guid(6c58e87958eed5445a3fea251023f241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain Data/Sandbox Terrains using Guid(6c58e87958eed5445a3fea251023f241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d573e245b03688ff19451119098ab3') in 0.008360 seconds
-  Import took 0.012134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 238.172372 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/axe.prefab
-  artifactKey: Guid(a966a24842bb4d84783e345d8ccccdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/axe.prefab using Guid(a966a24842bb4d84783e345d8ccccdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73e6023c91c1c112f1c1060d0ac1b22') in 0.191450 seconds
-  Import took 0.193927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Witchs_house.prefab
-  artifactKey: Guid(b8cb952614600b544b502cdcb6cd29c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Witchs_house.prefab using Guid(b8cb952614600b544b502cdcb6cd29c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4de4ae40ad628aa8d4d1bf54d9d85b') in 0.087546 seconds
-  Import took 0.089699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/frewood_1.prefab
-  artifactKey: Guid(597bc9826ef14f048901936686d2295a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/frewood_1.prefab using Guid(597bc9826ef14f048901936686d2295a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1479c23d6b333ceaf41dc973db3afa5d') in 0.039493 seconds
-  Import took 0.043050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vessel.prefab
-  artifactKey: Guid(1313ab7a160ccfd4c8d3fc4e33fdc2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vessel.prefab using Guid(1313ab7a160ccfd4c8d3fc4e33fdc2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db21d0be964623e9376c936664379a4') in 0.026464 seconds
-  Import took 0.029354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/table.prefab
-  artifactKey: Guid(16ecce9cc728dbf4284b95589f19b796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/table.prefab using Guid(16ecce9cc728dbf4284b95589f19b796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a331e5262c1b5138cb1c91d0448c34') in 0.031931 seconds
-  Import took 0.034671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/scoop.prefab
-  artifactKey: Guid(1a84c1e1be9611c44bca862dba8ea036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/scoop.prefab using Guid(1a84c1e1be9611c44bca862dba8ea036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bb169ae9b4179f5413ee7d3b4c29b2') in 0.029813 seconds
-  Import took 0.032656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/frewood.prefab
-  artifactKey: Guid(1fabff429656a5947b5c10c58e5d68f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/frewood.prefab using Guid(1fabff429656a5947b5c10c58e5d68f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbc3e501a843e48419c9a07311c694b') in 0.026584 seconds
-  Import took 0.029410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Broom.prefab
-  artifactKey: Guid(57b30364b5b0f4c4692a46782c14d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Broom.prefab using Guid(57b30364b5b0f4c4692a46782c14d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae715c4d4f436e78b4c4453b68c68b7') in 0.025729 seconds
-  Import took 0.029647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Pointer.prefab
-  artifactKey: Guid(58de58a8ad0360e4a8aa08535edf42d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Pointer.prefab using Guid(58de58a8ad0360e4a8aa08535edf42d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335fa04ae881436c1f5adbb3c8261b88') in 0.026649 seconds
-  Import took 0.029804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Stones.prefab
-  artifactKey: Guid(8cd95076da3c6fb4e90fb42edf7160dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Stones.prefab using Guid(8cd95076da3c6fb4e90fb42edf7160dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e126cd211673a45d5876938b4caa5d0') in 0.034644 seconds
-  Import took 0.038041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vat.prefab
-  artifactKey: Guid(773fdcbd8f9b613428ed605e592a5f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vat.prefab using Guid(773fdcbd8f9b613428ed605e592a5f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab46e969d697df81f994c8dee63ecad') in 0.027170 seconds
-  Import took 0.030560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/well.prefab
-  artifactKey: Guid(196e176e4da73bf449dba8cd3bb4a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/well.prefab using Guid(196e176e4da73bf449dba8cd3bb4a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1107499258b08c8948e06d43569968f8') in 0.025275 seconds
-  Import took 0.029239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vessel_2.prefab
-  artifactKey: Guid(e2abddf6f84ba3c44bb9cb6a368e288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vessel_2.prefab using Guid(e2abddf6f84ba3c44bb9cb6a368e288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8142423edae01ef1e21519af9454205') in 0.027874 seconds
-  Import took 0.030964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vessel_1.prefab
-  artifactKey: Guid(6410c48c3cbac294bb361556292ee964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vessel_1.prefab using Guid(6410c48c3cbac294bb361556292ee964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0b205a7660041fb7653f79ee42fcf9') in 0.030582 seconds
-  Import took 0.033415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Board.prefab
-  artifactKey: Guid(9ddfbd2a91f28cb418b79fb4678c09dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/Board.prefab using Guid(9ddfbd2a91f28cb418b79fb4678c09dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d76a451a2d083af4dccb9452b6d5fa5') in 0.025128 seconds
-  Import took 0.028197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/stool.prefab
-  artifactKey: Guid(087a693ae9f07e6489ebeb1aa8717d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/stool.prefab using Guid(087a693ae9f07e6489ebeb1aa8717d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1206705cee15ea7cd9eb3e85ee23f48') in 0.033520 seconds
-  Import took 0.036845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vessel_3.prefab
-  artifactKey: Guid(6ec98d5379f963149a2ae1800c3d072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs/vessel_3.prefab using Guid(6ec98d5379f963149a2ae1800c3d072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22baa1405b30381722a4480656ee3c01') in 0.032175 seconds
-  Import took 0.035320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.814919 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/whitchs_objects.tga
-  artifactKey: Guid(7a8fb355c6985fa4889ccd15c9638626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/whitchs_objects.tga using Guid(7a8fb355c6985fa4889ccd15c9638626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ff2a09e669884a698b20a5450d4ebf') in 0.029015 seconds
-  Import took 0.032115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/Witchs house.tga
-  artifactKey: Guid(b3a1d5801bc50e848a9f5af86d56ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/Witchs house.tga using Guid(b3a1d5801bc50e848a9f5af86d56ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73316b4413b10ae305a99d36124f510d') in 0.079675 seconds
-  Import took 0.082431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/whitchs_objects.tga
-  artifactKey: Guid(7a8fb355c6985fa4889ccd15c9638626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/whitchs_objects.tga using Guid(7a8fb355c6985fa4889ccd15c9638626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ff2a09e669884a698b20a5450d4ebf') in 0.020638 seconds
-  Import took 0.023177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/Witchs house_o.png
-  artifactKey: Guid(64a17595d4ddde24f850418a060c4fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/Witchs house_o.png using Guid(64a17595d4ddde24f850418a060c4fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14839d0737e49ba6f833168cb0098a6') in 0.062785 seconds
-  Import took 0.065516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/whitchs_objects_n.png
-  artifactKey: Guid(c0e66aa4cfafcf34080f8667df0e460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/whitchs_objects_n.png using Guid(c0e66aa4cfafcf34080f8667df0e460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0090e9e7763070d643785b6ac411d4ba') in 0.019600 seconds
-  Import took 0.022951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/Witchs house_n.png
-  artifactKey: Guid(e481198fe832eb944afe718ebc0c5a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/Witchs house_n.png using Guid(e481198fe832eb944afe718ebc0c5a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b5a299e8d34e1c3085d59aeb69b7c1') in 0.020053 seconds
-  Import took 0.023088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/whitchs_objects_o.png
-  artifactKey: Guid(ae885292ee0b4d047b5ad080f5a2904a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/whitchs_objects_o.png using Guid(ae885292ee0b4d047b5ad080f5a2904a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dda3649f41d13eaafb6d3e5d7a2ec47') in 0.015909 seconds
-  Import took 0.019248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.004061 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/No Name.mat
-  artifactKey: Guid(8831ec43dfc8a3f44b841afd477692f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/No Name.mat using Guid(8831ec43dfc8a3f44b841afd477692f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be3eccb5696ea33a23979a7722e3621') in 0.045538 seconds
-  Import took 0.048016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/Whitchs_objects.mat
-  artifactKey: Guid(9c9003e8bda32a44abf7207b5cda9f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/Whitchs_objects.mat using Guid(9c9003e8bda32a44abf7207b5cda9f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7014b74b72c8fcf55019b6c53b67b07b') in 0.021986 seconds
-  Import took 0.024298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/Whitchs_house.mat
-  artifactKey: Guid(b7bab55e5f5da04428fc05a9271575a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/Whitchs_house.mat using Guid(b7bab55e5f5da04428fc05a9271575a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54f4d978950bf89abe5a9df57cdb6eb') in 0.025623 seconds
-  Import took 0.028449 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000702 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1845.
-Total: 2.026000 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.786500 ms  DeleteObjects: 0.012700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.478481 seconds.
-  path: Assets/Game/Environment/Witchs_house.prefab
-  artifactKey: Guid(ad6c88d27db412149baae97f3b65e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Environment/Witchs_house.prefab using Guid(ad6c88d27db412149baae97f3b65e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365264e95cf3efdb3a20d3c92a5680b8') in 0.062739 seconds
-  Import took 0.066571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.125588 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs
-  artifactKey: Guid(621e4b19dce8d4541bae25750e91b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs using Guid(621e4b19dce8d4541bae25750e91b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1987753de749987c93e7df5f84b1b6') in 0.009394 seconds
-  Import took 0.012923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070303 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Cart.prefab
-  artifactKey: Guid(51dfe490bc7b7be4a98510ab383107c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Cart.prefab using Guid(51dfe490bc7b7be4a98510ab383107c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e1f8a8f126d0994147eaf49ee5cea8') in 0.044434 seconds
-  Import took 0.050692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Timber 2.prefab
-  artifactKey: Guid(8f409bb5e34bde647b98c5ffcf202d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Timber 2.prefab using Guid(8f409bb5e34bde647b98c5ffcf202d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66392a1babdd657378748aa24e1e88a6') in 0.016327 seconds
-  Import took 0.019331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Stairway.prefab
-  artifactKey: Guid(487655413926a77488851c5bc4539896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Stairway.prefab using Guid(487655413926a77488851c5bc4539896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c0bcef12b8b6c012d4d849b5765e39') in 0.016666 seconds
-  Import took 0.019745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Fence_2.prefab
-  artifactKey: Guid(e611912ad7be17f47b13edd715a935a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Fence_2.prefab using Guid(e611912ad7be17f47b13edd715a935a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e75c07a9b747e4df366ea29aa967d4a') in 0.018544 seconds
-  Import took 0.021902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Market.prefab
-  artifactKey: Guid(7e5ebd21c9e477c44bdd161530b93259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Market.prefab using Guid(7e5ebd21c9e477c44bdd161530b93259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016197b6b0576aec1373cf7668b9b40b') in 0.020030 seconds
-  Import took 0.023420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Timber 1.prefab
-  artifactKey: Guid(65c6fec096cc69643b5869d0ed9de0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Timber 1.prefab using Guid(65c6fec096cc69643b5869d0ed9de0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d96385fa478f6892a7f42ffa29912fb') in 0.022669 seconds
-  Import took 0.025395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Fence_1.prefab
-  artifactKey: Guid(94c264bb15a82de4993ecccb7b35e9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Fence_1.prefab using Guid(94c264bb15a82de4993ecccb7b35e9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440c6059fb8baeb17f53474335a22dc9') in 0.020007 seconds
-  Import took 0.022936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/House.prefab
-  artifactKey: Guid(da12e82f48e237747b2f824da5069ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/House.prefab using Guid(da12e82f48e237747b2f824da5069ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baed9619741b3d8e91e49adfa6f869d2') in 0.019430 seconds
-  Import took 0.021965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Sawmill.prefab
-  artifactKey: Guid(4ea7d2fc9bd447d4a9b239a433f1f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Sawmill.prefab using Guid(4ea7d2fc9bd447d4a9b239a433f1f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2735f52fcb672fdc7b6bf8129146554') in 0.019524 seconds
-  Import took 0.023049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Fence_3.prefab
-  artifactKey: Guid(629d59bd98ea81d48958203cef69257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Fence_3.prefab using Guid(629d59bd98ea81d48958203cef69257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dccd5d744d4708b512479a564787fc') in 0.018323 seconds
-  Import took 0.022711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Asset Packs/MedievalPack/Prefabs/Timber.prefab
-  artifactKey: Guid(f5110305ed347b34eb7e19e1918a3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Prefabs/Timber.prefab using Guid(f5110305ed347b34eb7e19e1918a3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9fdaa25ea0092357629dc50a896f5a') in 0.017251 seconds
-  Import took 0.020670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.816427 seconds.
-  path: Assets/Asset Packs/MedievalPack/Materials/Cart.mat
-  artifactKey: Guid(552e9de41f0e56d49ae2d8dbf09e705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Materials/Cart.mat using Guid(552e9de41f0e56d49ae2d8dbf09e705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d83ee963463805f9b3b0052d8186909') in 0.029464 seconds
-  Import took 0.032633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Asset Packs/MedievalPack/Materials/Sawmill.mat
-  artifactKey: Guid(d570d5deb349c734b8a45c5c892b6a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Materials/Sawmill.mat using Guid(d570d5deb349c734b8a45c5c892b6a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e208db97dadb8da70e1454f738f461') in 0.015996 seconds
-  Import took 0.020955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Asset Packs/MedievalPack/Materials/Market.mat
-  artifactKey: Guid(21ac5e4889a624449ae2a20fb0191c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Materials/Market.mat using Guid(21ac5e4889a624449ae2a20fb0191c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005537b2205e246eca0038c63aebcea4') in 0.058386 seconds
-  Import took 0.062401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Asset Packs/MedievalPack/Materials/timber.mat
-  artifactKey: Guid(f1dabe0c07fcb7e45875703832e3e9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Materials/timber.mat using Guid(f1dabe0c07fcb7e45875703832e3e9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde5e07e25204027fdf7f4346f6686fa') in 0.046581 seconds
-  Import took 0.049848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Asset Packs/MedievalPack/Materials/SawMetal.mat
-  artifactKey: Guid(697b044740ddb6d43a824e663fce3d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Materials/SawMetal.mat using Guid(697b044740ddb6d43a824e663fce3d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471b94d1e06aa63704e54a293024b9e9') in 0.024168 seconds
-  Import took 0.028503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Asset Packs/MedievalPack/Materials/Fence.mat
-  artifactKey: Guid(fae7f7c86a651d244a27c05e7c512147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/MedievalPack/Materials/Fence.mat using Guid(fae7f7c86a651d244a27c05e7c512147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bdce7768f814ad36599ca83bce2177') in 0.016799 seconds
-  Import took 0.019859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.014509 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house
-  artifactKey: Guid(1e8044b743a7ac649981bbe19a359a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house using Guid(1e8044b743a7ac649981bbe19a359a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f25c79f5c691415770a23e210fc1fb') in 0.002146 seconds
-  Import took 0.094501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Plane.mat
-  artifactKey: Guid(09633a1e5f65f4543a8e599e3d43610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Plane.mat using Guid(09633a1e5f65f4543a8e599e3d43610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a6e93157d5b52261e148758955fbfe') in 0.017550 seconds
-  Import took 0.020026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.977657 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Prefabs
-  artifactKey: Guid(da5e45595c3aa094b8ac1ec26628006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Prefabs using Guid(da5e45595c3aa094b8ac1ec26628006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64d4e81ad02e12063c9ed969f4faec6') in 0.002095 seconds
-  Import took 0.006147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.762785 seconds.
-  path: Assets/Asset Packs/Bizulka/Witchs_house/Materials/Whitchs_house.mat
-  artifactKey: Guid(b7bab55e5f5da04428fc05a9271575a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka/Witchs_house/Materials/Whitchs_house.mat using Guid(b7bab55e5f5da04428fc05a9271575a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3db8b26d89049f5c9a7b8ac3d6da92f') in 0.120778 seconds
-  Import took 0.124296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.258078 seconds.
-  path: Assets/Game/Environment/Witchs_house.prefab
-  artifactKey: Guid(ad6c88d27db412149baae97f3b65e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Environment/Witchs_house.prefab using Guid(ad6c88d27db412149baae97f3b65e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844e615c67abcbf8ded84ce58916d9a3') in 0.038180 seconds
-  Import took 0.040780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.727118 seconds.
-  path: Assets/Game/Environment/Stones.prefab
-  artifactKey: Guid(fcbc32902add51a4bb419bf746c3d77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Environment/Stones.prefab using Guid(fcbc32902add51a4bb419bf746c3d77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179d205e23e1b258d635d1e096dd176e') in 0.061106 seconds
-  Import took 0.066518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 215.701854 seconds.
-  path: Assets/Asset Packs/FREE Skyboxes - Sci-Fi & Fantasy
-  artifactKey: Guid(dd9b6807ba8d4b94ead1dae273e43737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/FREE Skyboxes - Sci-Fi & Fantasy using Guid(dd9b6807ba8d4b94ead1dae273e43737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a128337e0799b53c16b352f05cdb8c4') in 0.010334 seconds
-  Import took 0.013553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001638 seconds.
-  path: Assets/Asset Packs/FREE Skyboxes - Sci-Fi & Fantasy
-  artifactKey: Guid(dd9b6807ba8d4b94ead1dae273e43737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/FREE Skyboxes - Sci-Fi & Fantasy using Guid(dd9b6807ba8d4b94ead1dae273e43737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a128337e0799b53c16b352f05cdb8c4') in 0.002563 seconds
-  Import took 0.005215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.529685 seconds.
-  path: Assets/Asset Packs/Bizulka
-  artifactKey: Guid(8e4b9ddf6ad8fcf40bcc4375a2ca77c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Bizulka using Guid(8e4b9ddf6ad8fcf40bcc4375a2ca77c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21ea97735643c4b632f20e7bab6adbb') in 0.007981 seconds
-  Import took 0.011593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.757617 seconds.
-  path: Assets/Game/Environment/Medieval_Well.prefab
-  artifactKey: Guid(805a8ef1edb8c884aba27eadeef6d0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Environment/Medieval_Well.prefab using Guid(805a8ef1edb8c884aba27eadeef6d0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd746ade8af37bba0385ba72816da1fed') in 0.025433 seconds
-  Import took 0.028357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.331874 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Base_01 1.prefab
-  artifactKey: Guid(dbeda352506ce59458d65f5f9c97d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Base_01 1.prefab using Guid(dbeda352506ce59458d65f5f9c97d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e65667060c57765b62b7d1a68bfd4d') in 0.017626 seconds
-  Import took 0.021815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 585.365673 seconds.
-  path: Assets/Game/Environment/Banner_E_(1)_Banner_War_E_Flag_A.prefab
-  artifactKey: Guid(3122900035d0487488bd078e77ce7f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Environment/Banner_E_(1)_Banner_War_E_Flag_A.prefab using Guid(3122900035d0487488bd078e77ce7f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d24568df68fa3b7f0ad6cfd51cd3248') in 0.093700 seconds
-  Import took 0.097576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 175.333878 seconds.
-  path: Assets/Game/Environment/Fence.prefab
-  artifactKey: Guid(1f03cbf55f360904c83884fea33707b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Environment/Fence.prefab using Guid(1f03cbf55f360904c83884fea33707b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4351c0bcebbcbb25945820a18a207249') in 0.013977 seconds
-  Import took 0.018131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000562 seconds.
-  path: Assets/Game/Environment/Fence.prefab
-  artifactKey: Guid(1f03cbf55f360904c83884fea33707b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Environment/Fence.prefab using Guid(1f03cbf55f360904c83884fea33707b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4351c0bcebbcbb25945820a18a207249') in 0.009801 seconds
-  Import took 0.012489 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000904 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.0 MB.
-System memory in use after: 98.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1850.
-Total: 5.331000 ms (FindLiveObjects: 0.433400 ms CreateObjectMapping: 0.155400 ms MarkObjects: 4.712000 ms  DeleteObjects: 0.024500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 561.280152 seconds.
-  path: Assets/Game/Weapons/Sword/Equipped Sword.prefab
-  artifactKey: Guid(42134a827eb02e043983182edf3160ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Sword/Equipped Sword.prefab using Guid(42134a827eb02e043983182edf3160ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8bbd6b7f409aac3c2b8a859be5e79d') in 0.135069 seconds
-  Import took 0.140417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.165151 seconds.
-  path: Assets/Game/Weapons/Fireball/EquippedFireball.prefab
-  artifactKey: Guid(03901b57d3342404383eb4592df11cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Fireball/EquippedFireball.prefab using Guid(03901b57d3342404383eb4592df11cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef183a44e0435b550c82a09094b09700') in 0.099549 seconds
-  Import took 0.104143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.893040 seconds.
-  path: Assets/Game/Weapons/Resources/Bow_Enemy.asset
-  artifactKey: Guid(235a3ee070b9f0c479fa7fc96d9be903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Resources/Bow_Enemy.asset using Guid(235a3ee070b9f0c479fa7fc96d9be903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65567ea3727152a4eb464143f8d93d57') in 0.056331 seconds
-  Import took 0.062994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/Game/Weapons/Resources/Bow_Player.asset
-  artifactKey: Guid(e5dba9a9df2ca9148b692316fac25b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Resources/Bow_Player.asset using Guid(e5dba9a9df2ca9148b692316fac25b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe223ee9f39e76472c6271f45c9fa702') in 0.034466 seconds
-  Import took 0.041171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Game/Weapons/Resources/Fireball.asset
-  artifactKey: Guid(6ee078a669ed5174b9734d89eeefda51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Resources/Fireball.asset using Guid(6ee078a669ed5174b9734d89eeefda51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd4e930dda560bcc79d5f5964462aab') in 0.035121 seconds
-  Import took 0.041751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Game/Weapons/Resources/Unarmed.asset
-  artifactKey: Guid(85ca6c6d1452f2a498601f0acf33dd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Resources/Unarmed.asset using Guid(85ca6c6d1452f2a498601f0acf33dd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e5fbee800f916e5a202ed13141be46') in 0.016244 seconds
-  Import took 0.021168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/Game/Weapons/Resources/Sword.asset
-  artifactKey: Guid(a3b495137f7ac3f4dbfde8ddcd91e152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Resources/Sword.asset using Guid(a3b495137f7ac3f4dbfde8ddcd91e152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2c76332841b100aacb8ee1ec26ffbd') in 0.029696 seconds
-  Import took 0.036143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.120753 seconds.
-  path: Assets/Game/Weapons/Bow/Equipped Bow.prefab
-  artifactKey: Guid(d286c2d9ae7ea0f4daf5a2181d9663fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Bow/Equipped Bow.prefab using Guid(d286c2d9ae7ea0f4daf5a2181d9663fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efa5c8fc00681ffb6d85578d4bd9bc3') in 0.029553 seconds
-  Import took 0.034111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.873511 seconds.
-  path: Assets/Game/Weapons/Unarmed/Unarmed.prefab
-  artifactKey: Guid(5c055ca1b8e07a84ebaa328aefe93484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Unarmed/Unarmed.prefab using Guid(5c055ca1b8e07a84ebaa328aefe93484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e66d465ba62ef920af80fd4b9f39620') in 0.009564 seconds
-  Import took 0.012431 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000765 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.207 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.1 MB.
-System memory in use after: 98.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1855.
-Total: 3.627600 ms (FindLiveObjects: 0.266700 ms CreateObjectMapping: 0.063000 ms MarkObjects: 3.270200 ms  DeleteObjects: 0.025100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.682279 seconds.
-  path: Assets/Game/Weapons/Resources/Unarmed.asset
-  artifactKey: Guid(85ca6c6d1452f2a498601f0acf33dd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Weapons/Resources/Unarmed.asset using Guid(85ca6c6d1452f2a498601f0acf33dd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c43e867037f6daf02486194145c56e8') in 0.021937 seconds
-  Import took 0.025458 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001313 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.639 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.1 MB.
-System memory in use after: 98.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1858.
-Total: 2.861300 ms (FindLiveObjects: 0.416400 ms CreateObjectMapping: 0.157200 ms MarkObjects: 2.254300 ms  DeleteObjects: 0.032100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001108 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.1 MB.
-System memory in use after: 98.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1861.
-Total: 1.955400 ms (FindLiveObjects: 0.194300 ms CreateObjectMapping: 0.080000 ms MarkObjects: 1.661400 ms  DeleteObjects: 0.018300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000772 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.1 MB.
-System memory in use after: 98.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1864.
-Total: 2.544000 ms (FindLiveObjects: 0.260800 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.163900 ms  DeleteObjects: 0.020600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001567 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.041 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.1 MB.
-System memory in use after: 98.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1867.
-Total: 3.777100 ms (FindLiveObjects: 0.414800 ms CreateObjectMapping: 0.191600 ms MarkObjects: 3.132500 ms  DeleteObjects: 0.035600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 9073.458718 seconds.
-  path: Assets/Scenes/Sandbox.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868e6de73be475a6b7af1f30a17b9f42') in 0.012513 seconds
-  Import took 0.017096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 491.464657 seconds.
-  path: Assets/Destroyer.cs
-  artifactKey: Guid(d4d8e5a6bc23a324f8a6e0738bfaa30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Destroyer.cs using Guid(d4d8e5a6bc23a324f8a6e0738bfaa30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c604109ffd6d2359bea82ca350d7e69e') in 0.127269 seconds
-  Import took 0.130633 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001758 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.759 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.1 MB.
-System memory in use after: 98.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1870.
-Total: 1.705400 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.394300 ms  DeleteObjects: 0.015000 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
